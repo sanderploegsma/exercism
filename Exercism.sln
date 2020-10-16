@@ -113,6 +113,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NthPrime", "fsharp\nth-prim
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DndCharacter", "fsharp\dnd-character\DndCharacter.fsproj", "{AE61C648-DD67-4217-B1FD-5C76B2EAFE40}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LargestSeriesProduct", "fsharp\largest-series-product\LargestSeriesProduct.fsproj", "{843DA59E-FB65-480C-AC75-450593FA8202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -759,6 +761,18 @@ Global
 		{AE61C648-DD67-4217-B1FD-5C76B2EAFE40}.Release|x64.Build.0 = Release|Any CPU
 		{AE61C648-DD67-4217-B1FD-5C76B2EAFE40}.Release|x86.ActiveCfg = Release|Any CPU
 		{AE61C648-DD67-4217-B1FD-5C76B2EAFE40}.Release|x86.Build.0 = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|x64.Build.0 = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Debug|x86.Build.0 = Debug|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|x64.ActiveCfg = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|x64.Build.0 = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|x86.ActiveCfg = Release|Any CPU
+		{843DA59E-FB65-480C-AC75-450593FA8202}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -817,6 +831,7 @@ Global
 		{362CE633-6C2D-4042-8EE2-B86AFBF363FC} = {33AD9EF8-3228-4592-8934-4600F217C69F}
 		{E1441921-2871-475B-B276-B8BF6E908CC7} = {33AD9EF8-3228-4592-8934-4600F217C69F}
 		{AE61C648-DD67-4217-B1FD-5C76B2EAFE40} = {33AD9EF8-3228-4592-8934-4600F217C69F}
+		{843DA59E-FB65-480C-AC75-450593FA8202} = {33AD9EF8-3228-4592-8934-4600F217C69F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9474244-30FD-44C9-A3FC-69E1063A36D4}

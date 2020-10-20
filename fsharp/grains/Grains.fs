@@ -2,7 +2,7 @@
 
 let square (n: int): Result<uint64,string> = 
     match n with
-    | _ when n < 1 -> Error "square must be between 1 and 64"
+    | _ when n < 1 || n > 64 -> Error "square must be between 1 and 64"
     | n -> Ok (pown 2UL (n - 1))
 
 let squareOrZero (n: int): uint64 =

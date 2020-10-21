@@ -20,7 +20,10 @@ impl Iterator for Primes {
 }
 
 fn primes() -> Primes {
-    Primes { found: vec![], i: 2 }
+    Primes {
+        found: vec![],
+        i: 2,
+    }
 }
 
 pub fn nth(n: u32) -> u32 {

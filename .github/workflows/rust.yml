@@ -3,11 +3,13 @@ name: rust
 on:
   push:
     paths:
-      - rust
+      - '.github/workflows/**'
+      - 'rust/**'
     branches: [ master ]
   pull_request:
     paths:
-      - rust
+      - '.github/workflows/**'
+      - 'rust/**'
     branches: [ master ]
 
 env:

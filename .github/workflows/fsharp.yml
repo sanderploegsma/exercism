@@ -3,11 +3,13 @@ name: fsharp
 on:
   push:
     paths:
-      - fsharp
+      - '.github/workflows/**'
+      - 'fsharp/**'
     branches: [ master ]
   pull_request:
     paths:
-      - fsharp
+      - '.github/workflows/**'
+      - 'fsharp/**'
     branches: [ master ]
 
 jobs:

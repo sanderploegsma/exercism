@@ -3,11 +3,13 @@ name: python
 on:
   push:
     paths:
-      - python
+      - '.github/workflows/**'
+      - 'python/**'
     branches: [ master ]
   pull_request:
     paths:
-      - python
+      - '.github/workflows/**'
+      - 'python/**'
     branches: [ master ]
 
 jobs:

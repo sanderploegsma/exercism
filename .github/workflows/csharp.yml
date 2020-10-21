@@ -3,11 +3,13 @@ name: csharp
 on:
   push:
     paths:
-      - csharp
+      - '.github/workflows/**'
+      - 'csharp/**'
     branches: [ master ]
   pull_request:
     paths:
-      - csharp
+      - '.github/workflows/**'
+      - 'csharp/**'
     branches: [ master ]
 
 jobs:

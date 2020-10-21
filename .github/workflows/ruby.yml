@@ -3,11 +3,13 @@ name: ruby
 on:
   push:
     paths:
-      - ruby
+      - '.github/workflows/**'
+      - 'ruby/**'
     branches: [ master ]
   pull_request:
     paths:
-      - ruby
+      - '.github/workflows/**'
+      - 'ruby/**'
     branches: [ master ]
 
 jobs:

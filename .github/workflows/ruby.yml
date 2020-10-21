@@ -2,8 +2,12 @@ name: ruby
 
 on:
   push:
+    paths:
+      - ruby
     branches: [ master ]
   pull_request:
+    paths:
+      - ruby
     branches: [ master ]
 
 jobs:

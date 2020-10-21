@@ -2,8 +2,12 @@ name: fsharp
 
 on:
   push:
+    paths:
+      - fsharp
     branches: [ master ]
   pull_request:
+    paths:
+      - fsharp
     branches: [ master ]
 
 jobs:

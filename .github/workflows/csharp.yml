@@ -2,8 +2,12 @@ name: csharp
 
 on:
   push:
+    paths:
+      - csharp
     branches: [ master ]
   pull_request:
+    paths:
+      - csharp
     branches: [ master ]
 
 jobs:

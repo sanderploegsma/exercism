@@ -2,8 +2,12 @@ name: python
 
 on:
   push:
+    paths:
+      - python
     branches: [ master ]
   pull_request:
+    paths:
+      - python
     branches: [ master ]
 
 jobs:

@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllYourBase", "all-your-bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeSchool", "grade-school\GradeSchool.csproj", "{1FA87661-265D-4696-87DA-F4451D8D3022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOps", "list-ops\ListOps.csproj", "{DF849E03-2974-4FE7-9903-C09BEFC05641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -534,5 +536,17 @@ Global
 		{1FA87661-265D-4696-87DA-F4451D8D3022}.Release|x64.Build.0 = Release|Any CPU
 		{1FA87661-265D-4696-87DA-F4451D8D3022}.Release|x86.ActiveCfg = Release|Any CPU
 		{1FA87661-265D-4696-87DA-F4451D8D3022}.Release|x86.Build.0 = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|x64.Build.0 = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF849E03-2974-4FE7-9903-C09BEFC05641}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

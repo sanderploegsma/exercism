@@ -40,11 +40,11 @@ public static class Ledger
             "nl-NL" => new CultureInfo(locale)
             {
                 NumberFormat = { CurrencySymbol = currencySymbol, CurrencyNegativePattern = 12 },
-                DateTimeFormat = { ShortDatePattern = "dd/MM/yyyy" }
+                DateTimeFormat = { ShortDatePattern = "dd-MM-yyyy" }
             },
             "en-US" => new CultureInfo(locale)
             {
-                NumberFormat = { CurrencySymbol = currencySymbol },
+                NumberFormat = { CurrencySymbol = currencySymbol, CurrencyNegativePattern = 0 },
                 DateTimeFormat = { ShortDatePattern = "MM/dd/yyyy" }
             },
             _ => throw new ArgumentException("Invalid locale")

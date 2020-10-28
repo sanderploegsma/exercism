@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotationalCipher", "rotatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "circular-buffer\CircularBuffer.csproj", "{5EFBDF82-5ECB-431B-8C33-150D54137D64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ledger", "ledger\Ledger.csproj", "{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -576,5 +578,17 @@ Global
 		{5EFBDF82-5ECB-431B-8C33-150D54137D64}.Release|x64.Build.0 = Release|Any CPU
 		{5EFBDF82-5ECB-431B-8C33-150D54137D64}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EFBDF82-5ECB-431B-8C33-150D54137D64}.Release|x86.Build.0 = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|x64.Build.0 = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Debug|x86.Build.0 = Debug|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|x64.ActiveCfg = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|x64.Build.0 = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|x86.ActiveCfg = Release|Any CPU
+		{02D8E8C8-CD37-47FB-8EDC-7B9187C69486}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

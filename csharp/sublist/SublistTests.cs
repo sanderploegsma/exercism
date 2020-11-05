@@ -35,13 +35,13 @@ public class SublistTests
         Assert.Equal(SublistType.Unequal, Sublist.Classify(new List<int> { 1, 2, 3 }, new List<int> { 2, 3, 4 }));
     }
 
-    [Fact(Skip = "Test case not yet covered")]
+    [Fact]
     public void False_start()
     {
         Assert.Equal(SublistType.Sublist, Sublist.Classify(new List<int> { 1, 2, 5 }, new List<int> { 0, 1, 2, 3, 1, 2, 5, 6 }));
     }
 
-    [Fact(Skip = "Test case not yet covered")]
+    [Fact]
     public void Consecutive()
     {
         Assert.Equal(SublistType.Sublist, Sublist.Classify(new List<int> { 1, 1, 2 }, new List<int> { 0, 1, 1, 1, 2, 1, 2 }));

@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ledger", "ledger\Ledger.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenArray", "flatten-array\FlattenArray.csproj", "{AEE56E23-0271-46B6-8C44-80C050988C26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sublist", "sublist\Sublist.csproj", "{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -604,5 +606,17 @@ Global
 		{AEE56E23-0271-46B6-8C44-80C050988C26}.Release|x64.Build.0 = Release|Any CPU
 		{AEE56E23-0271-46B6-8C44-80C050988C26}.Release|x86.ActiveCfg = Release|Any CPU
 		{AEE56E23-0271-46B6-8C44-80C050988C26}.Release|x86.Build.0 = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Debug|x86.Build.0 = Debug|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|x64.Build.0 = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF6BC5E6-CCCB-4610-BB76-B840CD22D6E9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

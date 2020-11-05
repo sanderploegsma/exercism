@@ -1,74 +1,38 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class CircularBuffer<T>
 {
-    private readonly T[] _buffer;
-    private int _readHead;
-    private int _writeHead;
-    private int _itemCount;
-
+    private readonly int _capacity;
+    private readonly Queue<T> _queue;
+    
     public CircularBuffer(int capacity)
     {
-        _buffer = new T[capacity];
+        _capacity = capacity;
+        _queue = new Queue<T>();
     }
 
-    public T Read()
-    {
-        if (IsEmpty)
-        {
-            throw new InvalidOperationException("Buffer is empty");
-        }
-
-        var item = _buffer[_readHead];
-        if (_itemCount-- > 0)
-        {
-            AdvanceRead();
-        }
-
-        return item;
-    }
+    public T Read() => _queue.Dequeue();
 
     public void Write(T value)
     {
-        if (IsFull)
+        if (_queue.Count == _capacity)
         {
-            throw new InvalidOperationException("Buffer is full");
+            throw new InvalidOperationException();
         }
-
-        _buffer[_writeHead] = value;
-        _itemCount++;
-        AdvanceWrite();
+        
+        _queue.Enqueue(value);
     }
 
     public void Overwrite(T value)
     {
-        if (!IsFull) {
-            Write(value);
-        } else {
-            _buffer[_readHead] = value;
-            AdvanceRead();
+        if (_queue.Count == _capacity)
+        {
+            _queue.Dequeue();
         }
+        
+        _queue.Enqueue(value);
     }
 
-    public void Clear()
-    {
-        _readHead = 0;
-        _writeHead = 0;
-        _itemCount = 0;
-    }
-
-    private bool IsEmpty => _itemCount == 0;
-    private bool IsFull => _itemCount == _buffer.Length;
-
-    private void AdvanceRead()
-    {
-        _readHead = Next(_readHead);
-    }
-
-    private void AdvanceWrite()
-    {
-        _writeHead = Next(_writeHead);
-    }
-    
-    private int Next(int position) => (position + 1) % _buffer.Length;
+    public void Clear() => _queue.Clear();
 }

@@ -40,9 +40,9 @@ def build(n: int) -> str:
     return f"{item}, " + build(n - 1)
 
 
-def verse(n: int) -> list[str]:
+def verse(n: int) -> str:
     return f"On the {nth[n - 1]} day of Christmas my true love gave to me: {build(n)}"
 
 
-def recite(start_verse: int, end_verse: int) -> list[list[str]]:
+def recite(start_verse: int, end_verse: int) -> list[str]:
     return [verse(n) for n in range(start_verse, end_verse + 1)]

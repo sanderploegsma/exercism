@@ -3,7 +3,7 @@ ThisBuild / scalaVersion := "2.12.8"
 lazy val root = (project in file("."))
   .aggregate(`hello-world`, `two-fer`, leap, `space-age`, `robot-name`, `collatz-conjecture`, `armstrong-numbers`,
     triangle, `flatten-array`, `perfect-numbers`, allergies, `all-your-base`, `grade-school`, bob, hamming,
-    `palindrome-products`, series)
+    `palindrome-products`, series, `nth-prime`)
 
 lazy val `all-your-base` = project
 lazy val allergies = project
@@ -15,6 +15,7 @@ lazy val `grade-school` = project
 lazy val hamming = project
 lazy val `hello-world` = project
 lazy val leap = project
+lazy val `nth-prime` = project
 lazy val `palindrome-products` = project
 lazy val `perfect-numbers` = project
 lazy val `robot-name` = project

@@ -1,30 +1,17 @@
-case class Matrix(rows: Seq[Seq[Int]]) {
-
-  case class MatrixValue(row: Int, col: Int, value: Int)
-
-  val matrix: Seq[MatrixValue] =
-    rows
-      .zipWithIndex
-      .flatMap { case (values, row) =>
-        values
-          .zipWithIndex
-          .map { case (n, col) => MatrixValue(row, col, n) }
-      }
+case class Matrix(values: Seq[Seq[Int]]) {
+  private lazy val maxInRow = values.map(_.max)
+  private lazy val minInCol = values.transpose.map(_.min)
 
   def saddlePoints: Set[(Int, Int)] = {
-    val rowCandidates = select(_.row, row => row.maxBy(_.value))
-    val colCandidates = select(_.col, col => col.minBy(_.value))
+    for {
+      row <- values.indices
+      col <- values.head.indices
+      if isSaddlePoint(row, col)
+    } yield (row, col)
+  }.toSet
 
-    rowCandidates.intersect(colCandidates).map(v => (v.row, v.col))
+  private def isSaddlePoint(row: Int, col: Int): Boolean = {
+    val value = values(row)(col)
+    value == maxInRow(row) && value == minInCol(col)
   }
-
-  private def select(grouping: MatrixValue => Int, selector: Seq[MatrixValue] => MatrixValue) =
-    matrix
-      .groupBy(grouping)
-      .values
-      .flatMap { group =>
-        val target = selector.apply(group)
-        group.filter(_.value == target.value)
-      }
-      .toSet
 }

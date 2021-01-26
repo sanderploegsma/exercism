@@ -59,6 +59,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "PhoneNumber", "phone-number
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Raindrops", "raindrops\Raindrops.fsproj", "{CA6BAFEF-1EA6-4F0D-A795-DAD29B49A42E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Accumulate", "accumulate\Accumulate.fsproj", "{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +407,18 @@ Global
 		{CA6BAFEF-1EA6-4F0D-A795-DAD29B49A42E}.Release|x64.Build.0 = Release|Any CPU
 		{CA6BAFEF-1EA6-4F0D-A795-DAD29B49A42E}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA6BAFEF-1EA6-4F0D-A795-DAD29B49A42E}.Release|x86.Build.0 = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|x64.Build.0 = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE90EE31-A8FE-4C25-934F-D51638ECC9FA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

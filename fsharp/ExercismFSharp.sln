@@ -65,6 +65,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpaceAge", "space-age\Space
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Bob", "bob\Bob.fsproj", "{C1BE79FC-0728-4273-8050-5FD39A4629B7}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Allergies", "allergies\Allergies.fsproj", "{E69A1701-F433-4971-8D60-707BC6F31561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,18 @@ Global
 		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x64.Build.0 = Release|Any CPU
 		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x86.ActiveCfg = Release|Any CPU
 		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x86.Build.0 = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|x64.Build.0 = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Debug|x86.Build.0 = Debug|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|x64.ActiveCfg = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|x64.Build.0 = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|x86.ActiveCfg = Release|Any CPU
+		{E69A1701-F433-4971-8D60-707BC6F31561}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

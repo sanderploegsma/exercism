@@ -71,6 +71,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CollatzConjecture", "collat
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ArmstrongNumbers", "armstrong-numbers\ArmstrongNumbers.fsproj", "{D886A643-38CC-4483-9FDD-A7F9947FFE95}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleLinkedList", "simple-linked-list\SimpleLinkedList.fsproj", "{44B20564-D11A-49D4-A10D-F8A3C67A4451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +491,18 @@ Global
 		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x64.Build.0 = Release|Any CPU
 		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x86.ActiveCfg = Release|Any CPU
 		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x86.Build.0 = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|x64.Build.0 = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Debug|x86.Build.0 = Debug|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x64.ActiveCfg = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x64.Build.0 = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x86.ActiveCfg = Release|Any CPU
+		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

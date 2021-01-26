@@ -1,57 +1,59 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BankAccount", "bank-account\BankAccount.fsproj", "{3A488C5B-FC85-4A53-87B4-C4292EED7F76}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BankAccount", "bank-account\BankAccount.fsproj", "{3A488C5B-FC85-4A53-87B4-C4292EED7F76}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BinarySearchTree", "binary-search-tree\BinarySearchTree.fsproj", "{EB7F2039-19A9-41CE-9863-2317DB5896D3}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BinarySearchTree", "binary-search-tree\BinarySearchTree.fsproj", "{EB7F2039-19A9-41CE-9863-2317DB5896D3}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ComplexNumbers", "complex-numbers\ComplexNumbers.fsproj", "{309BBA72-CC34-4F51-985E-412ACA618F24}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ComplexNumbers", "complex-numbers\ComplexNumbers.fsproj", "{309BBA72-CC34-4F51-985E-412ACA618F24}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CustomSet", "custom-set\CustomSet.fsproj", "{42899499-8604-4019-BA72-CA6A67D6E8C1}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CustomSet", "custom-set\CustomSet.fsproj", "{42899499-8604-4019-BA72-CA6A67D6E8C1}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Darts", "darts\Darts.fsproj", "{29567013-3A73-4443-A10F-9602E03DB456}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Darts", "darts\Darts.fsproj", "{29567013-3A73-4443-A10F-9602E03DB456}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DifferenceOfSquares", "difference-of-squares\DifferenceOfSquares.fsproj", "{1F38171C-D7C3-4A2C-9017-64F8FE29146C}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DifferenceOfSquares", "difference-of-squares\DifferenceOfSquares.fsproj", "{1F38171C-D7C3-4A2C-9017-64F8FE29146C}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DiffieHellman", "diffie-hellman\DiffieHellman.fsproj", "{482CD543-58E8-4764-9DD7-96BB5432ABDD}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DiffieHellman", "diffie-hellman\DiffieHellman.fsproj", "{482CD543-58E8-4764-9DD7-96BB5432ABDD}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DndCharacter", "dnd-character\DndCharacter.fsproj", "{6D230DCD-2EC6-4E09-924E-1D767A480371}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DndCharacter", "dnd-character\DndCharacter.fsproj", "{6D230DCD-2EC6-4E09-924E-1D767A480371}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gigasecond", "gigasecond\Gigasecond.fsproj", "{CBB2387F-5C0F-4E30-8B3E-B86E8F1A3E54}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Gigasecond", "gigasecond\Gigasecond.fsproj", "{CBB2387F-5C0F-4E30-8B3E-B86E8F1A3E54}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Grains", "grains\Grains.fsproj", "{E98FE959-DE3B-47F1-92EB-CAA01B0CD573}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Grains", "grains\Grains.fsproj", "{E98FE959-DE3B-47F1-92EB-CAA01B0CD573}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Hamming", "hamming\Hamming.fsproj", "{95B21E4F-BFFA-4FBF-9356-7591D26C0BCE}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Hamming", "hamming\Hamming.fsproj", "{95B21E4F-BFFA-4FBF-9356-7591D26C0BCE}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloWorld", "hello-world\HelloWorld.fsproj", "{68005705-7D85-47E4-8B0B-C26232668845}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "HelloWorld", "hello-world\HelloWorld.fsproj", "{68005705-7D85-47E4-8B0B-C26232668845}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HighScores", "high-scores\HighScores.fsproj", "{B6D5E7D4-2AC7-42F6-9B60-1B9BFD4ACD22}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "HighScores", "high-scores\HighScores.fsproj", "{B6D5E7D4-2AC7-42F6-9B60-1B9BFD4ACD22}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Isogram", "isogram\Isogram.fsproj", "{DA7264C3-9B41-424C-A6BB-2B8E64032CAB}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Isogram", "isogram\Isogram.fsproj", "{DA7264C3-9B41-424C-A6BB-2B8E64032CAB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LargestSeriesProduct", "largest-series-product\LargestSeriesProduct.fsproj", "{DC1A031B-10A4-4F25-8039-C46388BDF586}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LargestSeriesProduct", "largest-series-product\LargestSeriesProduct.fsproj", "{DC1A031B-10A4-4F25-8039-C46388BDF586}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Leap", "leap\Leap.fsproj", "{3324C2B9-F033-4F59-9741-7DB0F5DF9EA9}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Leap", "leap\Leap.fsproj", "{3324C2B9-F033-4F59-9741-7DB0F5DF9EA9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NthPrime", "nth-prime\NthPrime.fsproj", "{85731415-933F-4F58-8D9B-DB8320D7046D}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "NthPrime", "nth-prime\NthPrime.fsproj", "{85731415-933F-4F58-8D9B-DB8320D7046D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pangram", "pangram\Pangram.fsproj", "{FEC7CFA0-6456-43FC-B0CD-27C6AC7A9E4E}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Pangram", "pangram\Pangram.fsproj", "{FEC7CFA0-6456-43FC-B0CD-27C6AC7A9E4E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "QueenAttack", "queen-attack\QueenAttack.fsproj", "{141DD774-4216-4358-97B3-B5BF9494D8C7}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "QueenAttack", "queen-attack\QueenAttack.fsproj", "{141DD774-4216-4358-97B3-B5BF9494D8C7}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RationalNumbers", "rational-numbers\RationalNumbers.fsproj", "{BD1B0F1F-8CFA-42F6-8C25-5E888C5B69E2}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "RationalNumbers", "rational-numbers\RationalNumbers.fsproj", "{BD1B0F1F-8CFA-42F6-8C25-5E888C5B69E2}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RnaTranscription", "rna-transcription\RnaTranscription.fsproj", "{66BB10C9-5C61-467C-82B2-9516068778C9}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "RnaTranscription", "rna-transcription\RnaTranscription.fsproj", "{66BB10C9-5C61-467C-82B2-9516068778C9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SumOfMultiples", "sum-of-multiples\SumOfMultiples.fsproj", "{928FC955-582A-45F8-8039-A2B2CAB8B7DD}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SumOfMultiples", "sum-of-multiples\SumOfMultiples.fsproj", "{928FC955-582A-45F8-8039-A2B2CAB8B7DD}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwelveDays", "twelve-days\TwelveDays.fsproj", "{5280ACA3-9570-4BFF-8D97-48AAC6190418}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TwelveDays", "twelve-days\TwelveDays.fsproj", "{5280ACA3-9570-4BFF-8D97-48AAC6190418}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwoFer", "two-fer\TwoFer.fsproj", "{B85CDF3F-7DB6-439C-B70F-6518635D2F88}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TwoFer", "two-fer\TwoFer.fsproj", "{B85CDF3F-7DB6-439C-B70F-6518635D2F88}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AllYourBase", "all-your-base\AllYourBase.fsproj", "{3DA1D245-0E89-4A7B-BBEC-1B3EABE7B8FE}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "AllYourBase", "all-your-base\AllYourBase.fsproj", "{3DA1D245-0E89-4A7B-BBEC-1B3EABE7B8FE}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ReverseString", "reverse-string\ReverseString.fsproj", "{845F966C-8D95-4C5B-A3F0-036898D8F1EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,9 +63,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3A488C5B-FC85-4A53-87B4-C4292EED7F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -366,5 +365,23 @@ Global
 		{3DA1D245-0E89-4A7B-BBEC-1B3EABE7B8FE}.Release|x64.Build.0 = Release|Any CPU
 		{3DA1D245-0E89-4A7B-BBEC-1B3EABE7B8FE}.Release|x86.ActiveCfg = Release|Any CPU
 		{3DA1D245-0E89-4A7B-BBEC-1B3EABE7B8FE}.Release|x86.Build.0 = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|x64.Build.0 = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{845F966C-8D95-4C5B-A3F0-036898D8F1EA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4323EB44-25FE-4C10-9C8D-2BD3B1D0F6DF}
 	EndGlobalSection
 EndGlobal

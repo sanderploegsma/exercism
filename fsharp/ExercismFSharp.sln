@@ -73,6 +73,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ArmstrongNumbers", "armstro
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleLinkedList", "simple-linked-list\SimpleLinkedList.fsproj", "{44B20564-D11A-49D4-A10D-F8A3C67A4451}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Series", "series\Series.fsproj", "{B1D1F593-491C-4DF3-9273-97D941F70BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -503,6 +505,18 @@ Global
 		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x64.Build.0 = Release|Any CPU
 		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x86.ActiveCfg = Release|Any CPU
 		{44B20564-D11A-49D4-A10D-F8A3C67A4451}.Release|x86.Build.0 = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|x64.Build.0 = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|x64.ActiveCfg = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|x64.Build.0 = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1D1F593-491C-4DF3-9273-97D941F70BBF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

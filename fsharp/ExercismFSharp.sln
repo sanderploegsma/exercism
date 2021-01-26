@@ -69,6 +69,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Allergies", "allergies\Alle
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CollatzConjecture", "collatz-conjecture\CollatzConjecture.fsproj", "{0C9430C4-F434-43CC-AEB6-64134AE518FB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ArmstrongNumbers", "armstrong-numbers\ArmstrongNumbers.fsproj", "{D886A643-38CC-4483-9FDD-A7F9947FFE95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -475,6 +477,18 @@ Global
 		{0C9430C4-F434-43CC-AEB6-64134AE518FB}.Release|x64.Build.0 = Release|Any CPU
 		{0C9430C4-F434-43CC-AEB6-64134AE518FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{0C9430C4-F434-43CC-AEB6-64134AE518FB}.Release|x86.Build.0 = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|x64.Build.0 = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Debug|x86.Build.0 = Debug|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x64.ActiveCfg = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x64.Build.0 = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x86.ActiveCfg = Release|Any CPU
+		{D886A643-38CC-4483-9FDD-A7F9947FFE95}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

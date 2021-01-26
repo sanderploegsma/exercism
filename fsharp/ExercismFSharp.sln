@@ -63,6 +63,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Accumulate", "accumulate\Ac
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpaceAge", "space-age\SpaceAge.fsproj", "{58A58709-564B-4FF0-80E6-E8B5706081C3}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Bob", "bob\Bob.fsproj", "{C1BE79FC-0728-4273-8050-5FD39A4629B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -433,6 +435,18 @@ Global
 		{58A58709-564B-4FF0-80E6-E8B5706081C3}.Release|x64.Build.0 = Release|Any CPU
 		{58A58709-564B-4FF0-80E6-E8B5706081C3}.Release|x86.ActiveCfg = Release|Any CPU
 		{58A58709-564B-4FF0-80E6-E8B5706081C3}.Release|x86.Build.0 = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x64.Build.0 = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1BE79FC-0728-4273-8050-5FD39A4629B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

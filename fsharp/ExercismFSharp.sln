@@ -95,6 +95,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Triangle", "triangle\Triang
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GradeSchool", "grade-school\GradeSchool.fsproj", "{143B7748-CA50-4BA7-AD19-22F6340704C7}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ScrabbleScore", "scrabble-score\ScrabbleScore.fsproj", "{C8BA08B3-7548-4B94-81DB-D213B1951E1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -657,6 +659,18 @@ Global
 		{143B7748-CA50-4BA7-AD19-22F6340704C7}.Release|x64.Build.0 = Release|Any CPU
 		{143B7748-CA50-4BA7-AD19-22F6340704C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{143B7748-CA50-4BA7-AD19-22F6340704C7}.Release|x86.Build.0 = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|x64.Build.0 = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8BA08B3-7548-4B94-81DB-D213B1951E1C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

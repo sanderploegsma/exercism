@@ -107,6 +107,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IsbnVerifier", "isbn-verifi
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RomanNumerals", "roman-numerals\RomanNumerals.fsproj", "{811DC75C-0E4F-46BE-8050-5F34351BA3DF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PythagoreanTriplet", "pythagorean-triplet\PythagoreanTriplet.fsproj", "{2066EA7F-1437-4733-928F-498A5939C0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -741,6 +743,18 @@ Global
 		{811DC75C-0E4F-46BE-8050-5F34351BA3DF}.Release|x64.Build.0 = Release|Any CPU
 		{811DC75C-0E4F-46BE-8050-5F34351BA3DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{811DC75C-0E4F-46BE-8050-5F34351BA3DF}.Release|x86.Build.0 = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|x64.Build.0 = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Debug|x86.Build.0 = Debug|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|x64.ActiveCfg = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|x64.Build.0 = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|x86.ActiveCfg = Release|Any CPU
+		{2066EA7F-1437-4733-928F-498A5939C0FC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

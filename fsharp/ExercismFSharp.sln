@@ -87,6 +87,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NucleotideCount", "nucleoti
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Etl", "etl\Etl.fsproj", "{FEE822DA-04D2-4BB1-8116-AE38B933430A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RobotSimulator", "robot-simulator\RobotSimulator.fsproj", "{FD440C2C-D1B5-4936-A27A-8430346BF189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -601,6 +603,18 @@ Global
 		{FEE822DA-04D2-4BB1-8116-AE38B933430A}.Release|x64.Build.0 = Release|Any CPU
 		{FEE822DA-04D2-4BB1-8116-AE38B933430A}.Release|x86.ActiveCfg = Release|Any CPU
 		{FEE822DA-04D2-4BB1-8116-AE38B933430A}.Release|x86.Build.0 = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|x64.Build.0 = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD440C2C-D1B5-4936-A27A-8430346BF189}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

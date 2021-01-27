@@ -91,6 +91,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RobotSimulator", "robot-sim
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Strain", "strain\Strain.fsproj", "{6D496A92-10AD-4F6F-82AF-4A6A54671940}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Triangle", "triangle\Triangle.fsproj", "{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -629,6 +631,18 @@ Global
 		{6D496A92-10AD-4F6F-82AF-4A6A54671940}.Release|x64.Build.0 = Release|Any CPU
 		{6D496A92-10AD-4F6F-82AF-4A6A54671940}.Release|x86.ActiveCfg = Release|Any CPU
 		{6D496A92-10AD-4F6F-82AF-4A6A54671940}.Release|x86.Build.0 = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|x64.Build.0 = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Debug|x86.Build.0 = Debug|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|x64.ActiveCfg = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|x64.Build.0 = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|x86.ActiveCfg = Release|Any CPU
+		{E4C4C7A6-E28E-41A0-B954-1B1939F9512D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -101,6 +101,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ErrorHandling", "error-hand
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProteinTranslation", "protein-translation\ProteinTranslation.fsproj", "{213DEAEB-919E-4BE8-9E8C-8F54743ED02F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SecretHandshake", "secret-handshake\SecretHandshake.fsproj", "{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -699,6 +701,18 @@ Global
 		{213DEAEB-919E-4BE8-9E8C-8F54743ED02F}.Release|x64.Build.0 = Release|Any CPU
 		{213DEAEB-919E-4BE8-9E8C-8F54743ED02F}.Release|x86.ActiveCfg = Release|Any CPU
 		{213DEAEB-919E-4BE8-9E8C-8F54743ED02F}.Release|x86.Build.0 = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|x64.Build.0 = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|x64.ActiveCfg = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|x64.Build.0 = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCAFEA2F-67D4-454B-9A5A-07A92E99539A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

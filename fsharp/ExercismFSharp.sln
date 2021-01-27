@@ -83,6 +83,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PerfectNumbers", "perfect-n
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Anagram", "anagram\Anagram.fsproj", "{BC5FDDC8-8967-4E37-9B26-C6A93A69075C}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NucleotideCount", "nucleotide-count\NucleotideCount.fsproj", "{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,18 @@ Global
 		{BC5FDDC8-8967-4E37-9B26-C6A93A69075C}.Release|x64.Build.0 = Release|Any CPU
 		{BC5FDDC8-8967-4E37-9B26-C6A93A69075C}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC5FDDC8-8967-4E37-9B26-C6A93A69075C}.Release|x86.Build.0 = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|x64.Build.0 = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Debug|x86.Build.0 = Debug|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|x64.ActiveCfg = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|x64.Build.0 = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|x86.ActiveCfg = Release|Any CPU
+		{89F7071D-E06A-442E-8162-A1AD8BE9FF6F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

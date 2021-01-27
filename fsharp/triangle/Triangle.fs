@@ -2,30 +2,28 @@
 
 let (|Triangle|_|) (sides: float list) =
     match sides with
+    | [ a; b; c ] when a = 0.0 || b = 0.0 || c = 0.0 -> None
     | [ a; b; c ] when a + b >= c && a + c >= b && b + c >= a -> Some Triangle
     | _ -> None
 
-let whenUniqueSides pred value sides =
-    if List.distinct sides |> List.length |> pred then
-        Some value
+let (|UniqueSides|_|) n sides =
+    if List.distinct sides |> List.length = n then
+        Some UniqueSides
     else
         None
 
-let (|Equilateral|_|) = whenUniqueSides ((=) 1) Equilateral
-let (|Isosceles|_|) = whenUniqueSides ((>=) 2) Isosceles
-let (|Scalene|_|) = whenUniqueSides ((=) 3) Scalene
-
 let equilateral =
     function
-    | Triangle & Equilateral -> true
+    | Triangle & UniqueSides 1 -> true
     | _ -> false
 
 let isosceles =
     function
-    | Triangle & Isosceles -> true
+    | Triangle & UniqueSides 1 -> true
+    | Triangle & UniqueSides 2 -> true
     | _ -> false
 
 let scalene =
     function
-    | Triangle & Scalene -> true
+    | Triangle & UniqueSides 3 -> true
     | _ -> false

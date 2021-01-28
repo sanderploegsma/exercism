@@ -125,6 +125,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Matrix", "matrix\Matrix.fsp
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PrimeFactors", "prime-factors\PrimeFactors.fsproj", "{61E22DB7-8DBE-4EA6-BB44-75A31960FBED}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DotDsl", "dot-dsl\DotDsl.fsproj", "{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -867,6 +869,18 @@ Global
 		{61E22DB7-8DBE-4EA6-BB44-75A31960FBED}.Release|x64.Build.0 = Release|Any CPU
 		{61E22DB7-8DBE-4EA6-BB44-75A31960FBED}.Release|x86.ActiveCfg = Release|Any CPU
 		{61E22DB7-8DBE-4EA6-BB44-75A31960FBED}.Release|x86.Build.0 = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|x64.Build.0 = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{E73D5692-8A1F-4FF3-9837-0CF2E3E142EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

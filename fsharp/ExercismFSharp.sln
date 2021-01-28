@@ -121,6 +121,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sieve", "sieve\Sieve.fsproj
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "KindergartenGarden", "kindergarten-garden\KindergartenGarden.fsproj", "{7582628D-ABC1-48B0-88A9-4C8E235E8CCF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Matrix", "matrix\Matrix.fsproj", "{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -839,6 +841,18 @@ Global
 		{7582628D-ABC1-48B0-88A9-4C8E235E8CCF}.Release|x64.Build.0 = Release|Any CPU
 		{7582628D-ABC1-48B0-88A9-4C8E235E8CCF}.Release|x86.ActiveCfg = Release|Any CPU
 		{7582628D-ABC1-48B0-88A9-4C8E235E8CCF}.Release|x86.Build.0 = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|x64.Build.0 = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E70EB08-14DC-4245-86EA-D56ED1BC12A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

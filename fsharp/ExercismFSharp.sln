@@ -131,6 +131,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RobotName", "robot-name\Rob
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AtbashCipher", "atbash-cipher\AtbashCipher.fsproj", "{B41945B8-79F0-4C7B-A80A-59F0816922CB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WordCount", "word-count\WordCount.fsproj", "{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -909,6 +911,18 @@ Global
 		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x64.Build.0 = Release|Any CPU
 		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x86.ActiveCfg = Release|Any CPU
 		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x86.Build.0 = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|x64.Build.0 = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Debug|x86.Build.0 = Debug|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|x64.Build.0 = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{B0DD349A-55BC-47B0-A58D-824B0C22C4C0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -129,6 +129,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DotDsl", "dot-dsl\DotDsl.fs
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RobotName", "robot-name\RobotName.fsproj", "{D5E2D4B9-C855-4519-BAFB-F60E43CA9D98}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AtbashCipher", "atbash-cipher\AtbashCipher.fsproj", "{B41945B8-79F0-4C7B-A80A-59F0816922CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -895,6 +897,18 @@ Global
 		{D5E2D4B9-C855-4519-BAFB-F60E43CA9D98}.Release|x64.Build.0 = Release|Any CPU
 		{D5E2D4B9-C855-4519-BAFB-F60E43CA9D98}.Release|x86.ActiveCfg = Release|Any CPU
 		{D5E2D4B9-C855-4519-BAFB-F60E43CA9D98}.Release|x86.Build.0 = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|x64.Build.0 = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x64.ActiveCfg = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x64.Build.0 = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{B41945B8-79F0-4C7B-A80A-59F0816922CB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

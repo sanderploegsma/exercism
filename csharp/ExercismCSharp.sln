@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "bob\Bob.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator", "robot-simulator\RobotSimulator.csproj", "{2A93061D-A0F5-4DFD-BAE8-DFE427101F10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLinkedList", "simple-linked-list\SimpleLinkedList.csproj", "{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -660,5 +662,17 @@ Global
 		{2A93061D-A0F5-4DFD-BAE8-DFE427101F10}.Release|x64.Build.0 = Release|Any CPU
 		{2A93061D-A0F5-4DFD-BAE8-DFE427101F10}.Release|x86.ActiveCfg = Release|Any CPU
 		{2A93061D-A0F5-4DFD-BAE8-DFE427101F10}.Release|x86.Build.0 = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|x64.Build.0 = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Debug|x86.Build.0 = Debug|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|x64.ActiveCfg = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|x64.Build.0 = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|x86.ActiveCfg = Release|Any CPU
+		{7056BA1E-93D2-49D6-A578-2DDE3F4C8C90}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

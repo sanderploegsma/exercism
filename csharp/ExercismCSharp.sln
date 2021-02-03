@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "bank-account
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raindrops", "raindrops\Raindrops.csproj", "{696E33FA-CB36-4A31-BA61-BC7214090DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsbnVerifier", "isbn-verifier\IsbnVerifier.csproj", "{063FA35E-EF79-4906-9238-4FFD6828B96B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -716,5 +718,17 @@ Global
 		{696E33FA-CB36-4A31-BA61-BC7214090DF4}.Release|x64.Build.0 = Release|Any CPU
 		{696E33FA-CB36-4A31-BA61-BC7214090DF4}.Release|x86.ActiveCfg = Release|Any CPU
 		{696E33FA-CB36-4A31-BA61-BC7214090DF4}.Release|x86.Build.0 = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|x64.Build.0 = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Debug|x86.Build.0 = Debug|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|x64.ActiveCfg = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|x64.Build.0 = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|x86.ActiveCfg = Release|Any CPU
+		{063FA35E-EF79-4906-9238-4FFD6828B96B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

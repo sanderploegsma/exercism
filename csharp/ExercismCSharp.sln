@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorTrio", "resist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sieve", "sieve\Sieve.csproj", "{43CA1E54-4101-4304-8343-B667E5984BBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverb", "proverb\Proverb.csproj", "{22EF173E-1EBB-45EF-B914-055196EF2DDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -982,5 +984,17 @@ Global
 		{43CA1E54-4101-4304-8343-B667E5984BBB}.Release|x64.Build.0 = Release|Any CPU
 		{43CA1E54-4101-4304-8343-B667E5984BBB}.Release|x86.ActiveCfg = Release|Any CPU
 		{43CA1E54-4101-4304-8343-B667E5984BBB}.Release|x86.Build.0 = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|x64.Build.0 = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Debug|x86.Build.0 = Debug|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|x64.ActiveCfg = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|x64.Build.0 = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|x86.ActiveCfg = Release|Any CPU
+		{22EF173E-1EBB-45EF-B914-055196EF2DDA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

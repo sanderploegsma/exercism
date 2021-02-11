@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strain", "strain\Strain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "triangle\Triangle.csproj", "{2BDF605E-B2F8-415B-9412-0EBD900D6F30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "reverse-string\ReverseString.csproj", "{120728D4-77BE-458D-84BB-0B357758FC0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -856,5 +858,17 @@ Global
 		{2BDF605E-B2F8-415B-9412-0EBD900D6F30}.Release|x64.Build.0 = Release|Any CPU
 		{2BDF605E-B2F8-415B-9412-0EBD900D6F30}.Release|x86.ActiveCfg = Release|Any CPU
 		{2BDF605E-B2F8-415B-9412-0EBD900D6F30}.Release|x86.Build.0 = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|x64.Build.0 = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Debug|x86.Build.0 = Debug|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x64.ActiveCfg = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x64.Build.0 = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x86.ActiveCfg = Release|Any CPU
+		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

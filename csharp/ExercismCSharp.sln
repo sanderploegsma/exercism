@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "reverse-st
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnaTranscription", "rna-transcription\RnaTranscription.csproj", "{C5EBE575-9377-4E63-827D-606B0FB15D32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteinTranslation", "protein-translation\ProteinTranslation.csproj", "{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -884,5 +886,17 @@ Global
 		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x64.Build.0 = Release|Any CPU
 		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x86.ActiveCfg = Release|Any CPU
 		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x86.Build.0 = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|x64.Build.0 = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAFFDBCB-3B5B-4670-8778-05411B19FEDD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

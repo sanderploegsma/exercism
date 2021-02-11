@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "reverse-string\ReverseString.csproj", "{120728D4-77BE-458D-84BB-0B357758FC0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnaTranscription", "rna-transcription\RnaTranscription.csproj", "{C5EBE575-9377-4E63-827D-606B0FB15D32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -870,5 +872,17 @@ Global
 		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x64.Build.0 = Release|Any CPU
 		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x86.ActiveCfg = Release|Any CPU
 		{120728D4-77BE-458D-84BB-0B357758FC0E}.Release|x86.Build.0 = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x64.Build.0 = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5EBE575-9377-4E63-827D-606B0FB15D32}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

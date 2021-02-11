@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverb", "proverb\Proverb.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "error-handling\ErrorHandling.csproj", "{B9C09753-60E5-468E-921F-55879D1DB7CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerSong", "beer-song\BeerSong.csproj", "{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1010,5 +1012,17 @@ Global
 		{B9C09753-60E5-468E-921F-55879D1DB7CE}.Release|x64.Build.0 = Release|Any CPU
 		{B9C09753-60E5-468E-921F-55879D1DB7CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{B9C09753-60E5-468E-921F-55879D1DB7CE}.Release|x86.Build.0 = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|x64.Build.0 = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FCA57D4-AE67-49B2-90FA-8ABFDB916C1A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindergartenGarden", "kinde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotDsl", "dot-dsl\DotDsl.csproj", "{5727E563-6840-42C6-B634-1160F5181EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "linked-list\LinkedList.csproj", "{3083867F-E63F-4EA7-BA83-94C67C69F995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1052,5 +1054,17 @@ Global
 		{5727E563-6840-42C6-B634-1160F5181EFD}.Release|x64.Build.0 = Release|Any CPU
 		{5727E563-6840-42C6-B634-1160F5181EFD}.Release|x86.ActiveCfg = Release|Any CPU
 		{5727E563-6840-42C6-B634-1160F5181EFD}.Release|x86.Build.0 = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|x64.Build.0 = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Debug|x86.Build.0 = Debug|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|x64.ActiveCfg = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|x64.Build.0 = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|x86.ActiveCfg = Release|Any CPU
+		{3083867F-E63F-4EA7-BA83-94C67C69F995}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

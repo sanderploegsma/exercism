@@ -5,121 +5,98 @@ using System.Linq;
 public class BowlingGame
 {
     private const int NumberOfFrames = 10;
+    private const int NumberOfPins = 10;
 
     private readonly List<Frame> _frames = new List<Frame>();
-    private Frame _currentFrame;
+    private readonly List<int> _rolls = new List<int>();
 
     public void Roll(int pins)
     {
-        if (_frames.Count == NumberOfFrames)
+        if (IsFinished)
             throw new ArgumentException("Game is already finished");
 
-        switch (_currentFrame)
-        {
-            case null when _frames.Count == NumberOfFrames - 1:
-                _currentFrame = new FinalFrame(pins);
-                break;
-            case null:
-                _currentFrame = new Frame(pins);
-                break;
-            default:
-                _currentFrame.AddRoll(pins);
-                break;
-        }
+        if (pins < 0 || pins > NumberOfPins)
+            throw new ArgumentException("Invalid number of pins");
 
-        if (_currentFrame.IsFull)
+        var type = ValidateRoll(pins);
+        if (type.HasValue)
         {
-            _frames.Add(_currentFrame);
-            _currentFrame = null;
+            _frames.Add(new Frame(type.Value, _rolls.Append(pins).ToList()));
+            _rolls.Clear();
+        }
+        else
+        {
+            _rolls.Add(pins);
         }
     }
 
     public int? Score()
     {
-        if (_frames.Count < NumberOfFrames)
+        if (!IsFinished)
             throw new ArgumentException("Game is not yet finished");
 
-        var score = 0;
+        return _frames
+            .Select((frame, i) => ScoreFrame(frame, _frames.Skip(i + 1).SelectMany(f => f.Rolls)))
+            .Sum();
+    }
 
-        for (var frameIndex = 0; frameIndex < 10; frameIndex++)
+    private static int ScoreFrame(Frame frame, IEnumerable<int> nextRolls) =>
+        frame.Type switch
         {
-            var frame = _frames[frameIndex];
-            var nextRolls = _frames.Skip(frameIndex + 1).SelectMany(f => f.Rolls);
+            FrameType.Strike => 10 + nextRolls.Take(2).Sum(),
+            FrameType.Spare => 10 + nextRolls.First(),
+            _ => frame.Rolls.Sum()
+        };
 
-            if (frame is FinalFrame || frame.IsOpen)
-            {
-                score += frame.Rolls.Sum();
-            }
-            else if (frame.IsStrike)
-            {
-                score += 10 + nextRolls.Take(2).Sum();
-            }
-            else if (frame.IsSpare)
-            {
-                score += 10 + nextRolls.First();
-            }
+    private bool IsFinished => _frames.Count == NumberOfFrames;
+
+    private FrameType? ValidateRoll(int roll) => _frames.Count == NumberOfFrames - 1
+        ? ValidateFinalFrameRoll(roll)
+        : ValidateNormalFrameRoll(roll);
+
+    private FrameType? ValidateNormalFrameRoll(int roll) =>
+        (_rolls.Count + 1) switch
+        {
+            // When the first roll is not a strike, the first and second roll cannot exceed the number of pins
+            2 when _rolls[0] + roll > NumberOfPins => throw new ArgumentException(),
+            
+            1 when roll == NumberOfPins => FrameType.Strike,
+            2 when _rolls[0] + roll == NumberOfPins => FrameType.Spare,
+            2 when _rolls[0] + roll < NumberOfPins => FrameType.Open,
+            _ => null
+        };
+
+    private FrameType? ValidateFinalFrameRoll(int roll) =>
+        (_rolls.Count + 1) switch
+        {
+            // When the first roll is not a strike, the first and second roll cannot exceed the number of pins
+            2 when _rolls[0] < NumberOfPins && _rolls[0] + roll > NumberOfPins => throw new ArgumentException(),
+            
+            // When the first roll is a strike and the second is not, the second and third roll cannot exceed the number of pins
+            3 when _rolls[0] == NumberOfPins && _rolls[1] < NumberOfPins && _rolls[1] + roll > NumberOfPins => throw new ArgumentException(),
+            
+            2 when _rolls[0] + roll < NumberOfPins => FrameType.Final,
+            3 => FrameType.Final,
+            _ => null
+        };
+
+    private class Frame
+    {
+        public FrameType Type { get; }
+        public IEnumerable<int> Rolls { get; }
+
+        public Frame(FrameType type, IEnumerable<int> rolls)
+        {
+            Type = type;
+            Rolls = rolls;
         }
-
-        return score;
-    }
-}
-
-internal class Frame
-{
-    protected readonly List<int> _rolls = new List<int>();
-
-    public Frame(int firstRoll)
-    {
-        if (!IsValidRoll(firstRoll))
-            throw new ArgumentException("Invalid number of pins");
-
-        _rolls.Add(firstRoll);
     }
 
-    public IReadOnlyCollection<int> Rolls => _rolls;
-
-    public virtual void AddRoll(int roll)
+    private enum FrameType
     {
-        if (IsFull)
-            throw new ArgumentException("Cannot roll in a full frame");
-
-        if (!IsValidRoll(roll))
-            throw new ArgumentException("Invalid number of pins");
-        
-        if (_rolls[0] + roll > 10)
-            throw new ArgumentException("Invalid number of pins");
-
-        _rolls.Add(roll);
-    }
-
-    public virtual bool IsFull => IsStrike || _rolls.Count == 2;
-
-    public bool IsStrike => _rolls[0] == 10;
-
-    public bool IsSpare => _rolls.Count == 2 && _rolls[0] + _rolls[1] == 10;
-
-    public bool IsOpen => !IsStrike && !IsSpare;
-
-    protected static bool IsValidRoll(int roll) => roll >= 0 && roll <= 10;
-}
-
-internal class FinalFrame : Frame
-{
-    public FinalFrame(int firstRoll) : base(firstRoll) { }
-
-    public override bool IsFull => _rolls.Count == 3 || (_rolls.Count == 2 && !IsStrike && !IsSpare);
-
-    public override void AddRoll(int roll)
-    {
-        if (IsFull)
-            throw new ArgumentException("Cannot roll in a full frame");
-
-        if (!IsValidRoll(roll))
-            throw new ArgumentException("Invalid number of pins");
-
-        if (IsStrike && _rolls.Count == 2 && _rolls[1] < 10 && _rolls[1] + roll > 10)
-            throw new ArgumentException("Invalid number of pins");
-
-        _rolls.Add(roll);
+        Strike,
+        Spare,
+        Open,
+        Final
     }
 }

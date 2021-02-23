@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "rest-api\RestApi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "bowling\Bowling.csproj", "{9E775875-7E5F-4BF6-BB0D-6DC486EBC1A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament", "tournament\Tournament.csproj", "{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1122,5 +1124,17 @@ Global
 		{9E775875-7E5F-4BF6-BB0D-6DC486EBC1A5}.Release|x64.Build.0 = Release|Any CPU
 		{9E775875-7E5F-4BF6-BB0D-6DC486EBC1A5}.Release|x86.ActiveCfg = Release|Any CPU
 		{9E775875-7E5F-4BF6-BB0D-6DC486EBC1A5}.Release|x86.Build.0 = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|x64.Build.0 = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C7B3496-A73C-4EC3-BF1A-B5D3AFE7DBD0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

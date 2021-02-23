@@ -9,24 +9,28 @@ public class BowlingGame
 
     private readonly List<Frame> _frames = new List<Frame>();
     private readonly List<int> _rolls = new List<int>();
+    private int _pinsLeft = NumberOfPins;
 
     public void Roll(int pins)
     {
         if (IsFinished)
             throw new ArgumentException("Game is already finished");
 
-        if (pins < 0 || pins > NumberOfPins)
+        if (pins < 0 || pins > _pinsLeft)
             throw new ArgumentException("Invalid number of pins");
 
-        var type = ValidateRoll(pins);
+        var type = CheckIfEndOfFrame(pins);
         if (type.HasValue)
         {
             _frames.Add(new Frame(type.Value, _rolls.Append(pins).ToList()));
             _rolls.Clear();
+            _pinsLeft = NumberOfPins;
         }
         else
         {
             _rolls.Add(pins);
+            var pinsLeft = _pinsLeft - pins;
+            _pinsLeft = pinsLeft <= 0 ? NumberOfPins : pinsLeft;
         }
     }
 
@@ -50,31 +54,22 @@ public class BowlingGame
 
     private bool IsFinished => _frames.Count == NumberOfFrames;
 
-    private FrameType? ValidateRoll(int roll) => _frames.Count == NumberOfFrames - 1
-        ? ValidateFinalFrameRoll(roll)
-        : ValidateNormalFrameRoll(roll);
+    private FrameType? CheckIfEndOfFrame(int roll) => _frames.Count == NumberOfFrames - 1
+        ? CheckIfEndOfFinalFrame(roll)
+        : CheckIfEndOfNormalFrame(roll);
 
-    private FrameType? ValidateNormalFrameRoll(int roll) =>
+    private FrameType? CheckIfEndOfNormalFrame(int roll) =>
         (_rolls.Count + 1) switch
         {
-            // When the first roll is not a strike, the first and second roll cannot exceed the number of pins
-            2 when _rolls[0] + roll > NumberOfPins => throw new ArgumentException(),
-            
             1 when roll == NumberOfPins => FrameType.Strike,
             2 when _rolls[0] + roll == NumberOfPins => FrameType.Spare,
             2 when _rolls[0] + roll < NumberOfPins => FrameType.Open,
             _ => null
         };
 
-    private FrameType? ValidateFinalFrameRoll(int roll) =>
+    private FrameType? CheckIfEndOfFinalFrame(int roll) =>
         (_rolls.Count + 1) switch
         {
-            // When the first roll is not a strike, the first and second roll cannot exceed the number of pins
-            2 when _rolls[0] < NumberOfPins && _rolls[0] + roll > NumberOfPins => throw new ArgumentException(),
-            
-            // When the first roll is a strike and the second is not, the second and third roll cannot exceed the number of pins
-            3 when _rolls[0] == NumberOfPins && _rolls[1] < NumberOfPins && _rolls[1] + roll > NumberOfPins => throw new ArgumentException(),
-            
             2 when _rolls[0] + roll < NumberOfPins => FrameType.Final,
             3 => FrameType.Final,
             _ => null

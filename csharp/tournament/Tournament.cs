@@ -5,10 +5,6 @@ using System.Linq;
 
 public static class Tournament
 {
-    private const int PointsPerWin = 3;
-    private const int PointsPerDraw = 1;
-    private const int PointsPerLoss = 0;
-
     public static void Tally(Stream inStream, Stream outStream)
     {
         var results = ReadMatchResults(inStream);
@@ -30,28 +26,19 @@ public static class Tournament
             if (!tournament.ContainsKey(team2))
                 tournament.Add(team2, new Stats());
 
-            tournament[team1].MatchesPlayed++;
-            tournament[team2].MatchesPlayed++;
-
             switch (result)
             {
                 case "win":
                     tournament[team1].MatchesWon++;
-                    tournament[team1].Points += PointsPerWin;
                     tournament[team2].MatchesLost++;
-                    tournament[team2].Points += PointsPerLoss;
                     break;
                 case "loss":
                     tournament[team1].MatchesLost++;
-                    tournament[team1].Points += PointsPerLoss;
                     tournament[team2].MatchesWon++;
-                    tournament[team2].Points += PointsPerWin;
                     break;
                 case "draw":
                     tournament[team1].MatchesDrawn++;
-                    tournament[team1].Points += PointsPerDraw;
                     tournament[team2].MatchesDrawn++;
-                    tournament[team2].Points += PointsPerDraw;
                     break;
                 default:
                     throw new ArgumentException("Invalid match result");
@@ -93,10 +80,14 @@ public static class Tournament
 
     private class Stats
     {
-        public int MatchesPlayed { get; set; }
+        private const int PointsPerWin = 3;
+        private const int PointsPerDraw = 1;
+        private const int PointsPerLoss = 0;
+        
         public int MatchesWon { get; set; }
         public int MatchesLost { get; set; }
         public int MatchesDrawn { get; set; }
-        public int Points { get; set; }
+        public int MatchesPlayed => MatchesWon + MatchesDrawn + MatchesLost;
+        public int Points => MatchesWon * PointsPerWin + MatchesDrawn * PointsPerDraw + MatchesLost * PointsPerLoss;
     }
 }

@@ -19,16 +19,15 @@ public class BowlingGame
         if (pins < 0 || pins > _pinsLeft)
             throw new ArgumentException("Invalid number of pins");
 
-        var type = CheckIfEndOfFrame(pins);
-        if (type.HasValue)
+        _rolls.Add(pins);
+        if (IsEndOfFrame(out var frame))
         {
-            _frames.Add(new Frame(type.Value, _rolls.Append(pins).ToList()));
+            _frames.Add(frame);
             _rolls.Clear();
             _pinsLeft = NumberOfPins;
         }
         else
         {
-            _rolls.Add(pins);
             var pinsLeft = _pinsLeft - pins;
             _pinsLeft = pinsLeft <= 0 ? NumberOfPins : pinsLeft;
         }
@@ -54,26 +53,42 @@ public class BowlingGame
 
     private bool IsFinished => _frames.Count == NumberOfFrames;
 
-    private FrameType? CheckIfEndOfFrame(int roll) => _frames.Count == NumberOfFrames - 1
-        ? CheckIfEndOfFinalFrame(roll)
-        : CheckIfEndOfNormalFrame(roll);
+    private bool IsEndOfFrame(out Frame frame) => _frames.Count == NumberOfFrames - 1
+        ? IsEndOfFinalFrame(out frame)
+        : IsEndOfNormalFrame(out frame);
 
-    private FrameType? CheckIfEndOfNormalFrame(int roll) =>
-        (_rolls.Count + 1) switch
+    private bool IsEndOfNormalFrame(out Frame frame)
+    {
+        switch (_rolls.Count)
         {
-            1 when roll == NumberOfPins => FrameType.Strike,
-            2 when _rolls[0] + roll == NumberOfPins => FrameType.Spare,
-            2 when _rolls[0] + roll < NumberOfPins => FrameType.Open,
-            _ => null
-        };
+            case 1 when _rolls[0] == NumberOfPins:
+                frame = new Frame(FrameType.Strike, _rolls.ToArray());
+                return true;
+            case 2 when _rolls[0] + _rolls[1] == NumberOfPins:
+                frame = new Frame(FrameType.Spare, _rolls.ToArray());
+                return true;
+            case 2 when _rolls[0] + _rolls[1] < NumberOfPins:
+                frame = new Frame(FrameType.Open, _rolls.ToArray());
+                return true;
+            default:
+                frame = null;
+                return false;
+        }
+    }
 
-    private FrameType? CheckIfEndOfFinalFrame(int roll) =>
-        (_rolls.Count + 1) switch
+    private bool IsEndOfFinalFrame(out Frame frame)
+    {
+        switch (_rolls.Count)
         {
-            2 when _rolls[0] + roll < NumberOfPins => FrameType.Final,
-            3 => FrameType.Final,
-            _ => null
-        };
+            case 2 when _rolls[0] + _rolls[1] < NumberOfPins:
+            case 3:
+                frame = new Frame(FrameType.Final, _rolls.ToArray());
+                return true;
+            default:
+                frame = null;
+                return false;
+        }
+    }
 
     private class Frame
     {

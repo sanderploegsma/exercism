@@ -135,6 +135,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WordCount", "word-count\Wor
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PalindromeProducts", "palindrome-products\PalindromeProducts.fsproj", "{92430045-301B-4410-BBD0-E59F5884F47B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Luhn", "luhn\Luhn.fsproj", "{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -937,6 +939,18 @@ Global
 		{92430045-301B-4410-BBD0-E59F5884F47B}.Release|x64.Build.0 = Release|Any CPU
 		{92430045-301B-4410-BBD0-E59F5884F47B}.Release|x86.ActiveCfg = Release|Any CPU
 		{92430045-301B-4410-BBD0-E59F5884F47B}.Release|x86.Build.0 = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|x64.Build.0 = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Debug|x86.Build.0 = Debug|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x64.ActiveCfg = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x64.Build.0 = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

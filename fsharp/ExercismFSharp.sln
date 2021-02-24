@@ -137,6 +137,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PalindromeProducts", "palin
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Luhn", "luhn\Luhn.fsproj", "{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinkedList", "linked-list\LinkedList.fsproj", "{BCC561A9-DEA2-48D8-B720-430D00AB1501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -951,6 +953,18 @@ Global
 		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x64.Build.0 = Release|Any CPU
 		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF66C572-82D5-4DB4-BB2F-2A4E53081B56}.Release|x86.Build.0 = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|x64.Build.0 = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|x64.ActiveCfg = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|x64.Build.0 = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCC561A9-DEA2-48D8-B720-430D00AB1501}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

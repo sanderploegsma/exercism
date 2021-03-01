@@ -187,6 +187,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "run-le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "wordy\Wordy.csproj", "{71355032-D7C1-420A-B553-BAEC5AA50A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grep", "grep\Grep.csproj", "{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1304,5 +1306,17 @@ Global
 		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x64.Build.0 = Release|Any CPU
 		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x86.ActiveCfg = Release|Any CPU
 		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x86.Build.0 = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x64.Build.0 = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

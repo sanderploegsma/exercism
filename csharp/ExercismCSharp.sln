@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeProducts", "palin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoSquare", "crypto-square\CryptoSquare.csproj", "{84F3D817-76DF-4416-A8B5-82CF708DB0B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthPrime", "nth-prime\NthPrime.csproj", "{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1178,5 +1180,17 @@ Global
 		{84F3D817-76DF-4416-A8B5-82CF708DB0B1}.Release|x64.Build.0 = Release|Any CPU
 		{84F3D817-76DF-4416-A8B5-82CF708DB0B1}.Release|x86.ActiveCfg = Release|Any CPU
 		{84F3D817-76DF-4416-A8B5-82CF708DB0B1}.Release|x86.Build.0 = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|x64.Build.0 = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Debug|x86.Build.0 = Debug|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|x64.ActiveCfg = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|x64.Build.0 = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|x86.ActiveCfg = Release|Any CPU
+		{4ED5C11A-8A52-490E-8DE7-7F9006D6001B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwelveDays", "twelve-days\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper", "minesweeper\Minesweeper.csproj", "{0336B43B-4FE5-43FE-B84F-226B42BD5775}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaleGenerator", "scale-generator\ScaleGenerator.csproj", "{A1910384-499E-4040-8710-85D3889BBE8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1262,5 +1264,17 @@ Global
 		{0336B43B-4FE5-43FE-B84F-226B42BD5775}.Release|x64.Build.0 = Release|Any CPU
 		{0336B43B-4FE5-43FE-B84F-226B42BD5775}.Release|x86.ActiveCfg = Release|Any CPU
 		{0336B43B-4FE5-43FE-B84F-226B42BD5775}.Release|x86.Build.0 = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|x64.Build.0 = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|x64.Build.0 = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1910384-499E-4040-8710-85D3889BBE8E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -189,6 +189,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "wordy\Wordy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grep", "grep\Grep.csproj", "{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineCipher", "affine-cipher\AffineCipher.csproj", "{C5932E3C-F685-4F41-B4AA-E6172D09228E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1318,5 +1320,17 @@ Global
 		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x64.Build.0 = Release|Any CPU
 		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x86.ActiveCfg = Release|Any CPU
 		{82D2AEDB-3A89-4578-9096-D5EC7E412BBD}.Release|x86.Build.0 = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|x64.Build.0 = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5932E3C-F685-4F41-B4AA-E6172D09228E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

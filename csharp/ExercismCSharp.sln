@@ -185,6 +185,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaleGenerator", "scale-gen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "run-length-encoding\RunLengthEncoding.csproj", "{A20FBDE0-5D39-4DC3-95AA-CF8519980EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "wordy\Wordy.csproj", "{71355032-D7C1-420A-B553-BAEC5AA50A58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1290,5 +1292,17 @@ Global
 		{A20FBDE0-5D39-4DC3-95AA-CF8519980EF3}.Release|x64.Build.0 = Release|Any CPU
 		{A20FBDE0-5D39-4DC3-95AA-CF8519980EF3}.Release|x86.ActiveCfg = Release|Any CPU
 		{A20FBDE0-5D39-4DC3-95AA-CF8519980EF3}.Release|x86.Build.0 = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|x64.Build.0 = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Debug|x86.Build.0 = Debug|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x64.ActiveCfg = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x64.Build.0 = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x86.ActiveCfg = Release|Any CPU
+		{71355032-D7C1-420A-B553-BAEC5AA50A58}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

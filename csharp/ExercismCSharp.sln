@@ -195,6 +195,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "word-search\W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "spiral-matrix\SpiralMatrix.csproj", "{5C53BBE8-31C5-4489-9EFA-EB6C80D20FC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableLengthQuantity", "variable-length-quantity\VariableLengthQuantity.csproj", "{8A0D12E0-31F7-41CC-8086-69C090AD96C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1360,5 +1362,17 @@ Global
 		{5C53BBE8-31C5-4489-9EFA-EB6C80D20FC0}.Release|x64.Build.0 = Release|Any CPU
 		{5C53BBE8-31C5-4489-9EFA-EB6C80D20FC0}.Release|x86.ActiveCfg = Release|Any CPU
 		{5C53BBE8-31C5-4489-9EFA-EB6C80D20FC0}.Release|x86.Build.0 = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|x64.Build.0 = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A0D12E0-31F7-41CC-8086-69C090AD96C7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,35 +2,23 @@ package sieve
 
 // Sieve calculates all primes up to the given limit.
 func Sieve(limit int) []int {
-	if limit < 2 {
-		return []int{}
-	}
+	candidates := make([]bool, limit+1)
 
-	candidates := make([]int, limit-1)
+	primes := 0
+	result := make([]int, limit/2)
+
 	for n := 2; n <= limit; n++ {
-		candidates[n-2] = n
-	}
+		if candidates[n] {
+			continue
+		}
 
-	primes := []int{}
-	for len(candidates) > 0 {
-		p := candidates[0]
-		primes = append(primes, p)
-		candidates = filterMultiplesOf(p, candidates)
-	}
+		result[primes] = n
+		primes++
 
-	return primes
-}
-
-func filterMultiplesOf(a int, numbers []int) []int {
-	result := make([]int, len(numbers))
-	filtered := 0
-
-	for _, b := range numbers {
-		if b%a != 0 {
-			result[filtered] = b
-			filtered++
+		for m := n; m <= limit; m += n {
+			candidates[m] = true
 		}
 	}
 
-	return result[:filtered]
+	return result[:primes]
 }

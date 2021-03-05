@@ -201,6 +201,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "matchin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transpose", "transpose\Transpose.csproj", "{928142C2-310C-4B28-9703-493D30EC4729}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZebraPuzzle", "zebra-puzzle\ZebraPuzzle.csproj", "{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1402,5 +1404,17 @@ Global
 		{928142C2-310C-4B28-9703-493D30EC4729}.Release|x64.Build.0 = Release|Any CPU
 		{928142C2-310C-4B28-9703-493D30EC4729}.Release|x86.ActiveCfg = Release|Any CPU
 		{928142C2-310C-4B28-9703-493D30EC4729}.Release|x86.Build.0 = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|x64.Build.0 = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Debug|x86.Build.0 = Debug|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|x64.ActiveCfg = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|x64.Build.0 = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|x86.ActiveCfg = Release|Any CPU
+		{87A40D8E-4ABE-412A-97BB-8FBDE9709D09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

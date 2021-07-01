@@ -29,7 +29,7 @@ let children t =
     | Branch (id, c) -> c
     | Leaf id -> []
 
-let private isChildOf child parent = child.ParentId = parent.RecordId
+let private isChildOf parent child = child.ParentId = parent.RecordId
 
 let rec buildSubtree records root =
     match List.filter (isChildOf root) records with

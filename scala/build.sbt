@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
   .aggregate(`hello-world`, `two-fer`, leap, `space-age`, `robot-name`, `collatz-conjecture`, `armstrong-numbers`,
     triangle, `flatten-array`, `perfect-numbers`, allergies, `all-your-base`, `grade-school`, bob, hamming,
     `palindrome-products`, series, `nth-prime`, etl, `robot-simulator`, `secret-handshake`, `atbash-cipher`,
-    `saddle-points`, `simple-linked-list`, `pythagorean-triplet`, `queen-attack`, `nucleotide-count`)
+    `saddle-points`, `simple-linked-list`, `pythagorean-triplet`, `queen-attack`, `nucleotide-count`, `complex-numbers`)
 
 lazy val `all-your-base` = project
 lazy val allergies = project
@@ -12,6 +12,7 @@ lazy val `armstrong-numbers` = project
 lazy val `atbash-cipher` = project
 lazy val bob = project
 lazy val `collatz-conjecture` = project
+lazy val `complex-numbers` = project
 lazy val etl = project
 lazy val `flatten-array` = project
 lazy val `grade-school` = project

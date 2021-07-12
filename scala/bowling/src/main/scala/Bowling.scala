@@ -1,85 +1,93 @@
 sealed trait Bowling {
   def roll(pins: Int): Bowling
 
-  def score(): Either[Error, Int]
+  def score(): Either[String, Int]
 }
 
 object Bowling {
-  def apply(): Bowling = new BowlingGame(List.empty)
+  def apply(): Bowling = BowlingGameFrame(history = List.empty, rolls = List.empty)
 }
 
-case class Error(message: String)
+private case class InvalidBowlingGame(message: String) extends Bowling {
+  override def roll(pins: Int): Bowling = this
 
-private class BowlingGame(rolls: List[Int]) extends Bowling {
-  private val frameCount = 10
+  override def score(): Either[String, Int] = Left(message)
+}
 
-  override def roll(pins: Int): Bowling = new BowlingGame(rolls :+ pins)
+private case class FinishedBowlingGame(frames: List[CompletedFrame]) extends Bowling {
+  override def roll(pins: Int): Bowling = InvalidBowlingGame("Cannot roll after game has finished")
 
-  override def score(): Either[Error, Int] = {
-    if (rolls.exists(x => x < 0 || x > 10))
-      return Left(Error("Invalid roll found"))
+  override def score(): Either[String, Int] = Right(score(frames))
 
-    val frames = createFrames(rolls)
-
-    if (frames.length != frameCount)
-      return Left(Error("Invalid number of frames"))
-
-    if (frames.exists(!_.isValid))
-      return Left(Error("Invalid frame found"))
-
-    Right(score(frames))
-  }
-
-  private def createFrames(rolls: List[Int], frameId: Int = 1): List[Frame] = rolls match {
-    case Nil => List.empty
-    case _ if frameId == frameCount => List(createFinalFrame(rolls))
-    case 10 :: tail => Strike :: createFrames(tail, frameId + 1)
-    case x1 :: x2 :: tail if x1 + x2 == 10 => Spare(List(x1, x2)) :: createFrames(tail, frameId + 1)
-    case x1 :: x2 :: tail => Open(List(x1, x2)) :: createFrames(tail, frameId + 1)
-  }
-
-  private def createFinalFrame(rolls: List[Int]): Frame = rolls match {
-    case 10 :: _ => FinalStrike(rolls)
-    case x1 :: x2 :: _ if x1 + x2 == 10 => FinalSpare(rolls)
-    case _ => Open(rolls)
-  }
-
-  private def score(frames: List[Frame]): Int = frames match {
+  private def score(frames: List[CompletedFrame]): Int = frames match {
     case Nil => 0
-    case Open(rolls) :: tail => rolls.sum + score(tail)
-    case Strike :: tail => 10 + tail.flatMap(_.rolls).take(2).sum + score(tail)
-    case Spare(rolls) :: tail => rolls.sum + tail.flatMap(_.rolls).head + score(tail)
-    case FinalSpare(rolls) :: Nil => rolls.sum
-    case FinalStrike(rolls) :: Nil => rolls.sum
+    case frame :: tail =>
+      val nextRolls = tail.flatMap(_.rolls)
+      val bonusScore = frame.frameType match {
+        case Spare => nextRolls.head
+        case Strike => nextRolls.take(2).sum
+        case _ => 0
+      }
+      frame.rolls.sum + bonusScore + score(tail)
+  }
+}
+
+private case class BowlingGameFrame(history: List[CompletedFrame], rolls: List[Int]) extends Bowling {
+  override def roll(pins: Int): Bowling = {
+    if (pins < 0 || pins > 10 - rolls.sum)
+      return InvalidBowlingGame("Invalid roll")
+
+    val frameType = rolls match {
+      case Nil if pins < 10 => None
+      case Nil => Some(Strike)
+      case prev :: Nil if prev + pins == 10 => Some(Spare)
+      case _ => Some(Open)
+    }
+
+    frameType
+      .map(CompletedFrame(rolls :+ pins, _))
+      .map(f => startNewFrame(history :+ f))
+      .getOrElse(BowlingGameFrame(history, rolls :+ pins))
   }
 
-  private sealed trait Frame {
-    val rolls: List[Int]
-    val isValid: Boolean
-  }
+  private def startNewFrame(frames: List[CompletedFrame]): Bowling =
+    if (frames.length < 9) {
+      BowlingGameFrame(frames, rolls = List.empty)
+    } else {
+      BowlingGameFinalFrame(frames, rolls = List.empty)
+    }
 
-  private case object Strike extends Frame {
-    override val rolls: List[Int] = List(10)
-    override val isValid: Boolean = true
-  }
+  override def score(): Either[String, Int] = Left("Cannot calculate score for game that is not yet finished")
+}
 
-  private case class Spare(rolls: List[Int]) extends Frame {
-    override val isValid: Boolean = rolls.length == 2 && rolls.sum == 10
-  }
+private case class BowlingGameFinalFrame(history: List[CompletedFrame], rolls: List[Int], pinsLeft: Int = 10) extends Bowling {
+  override def roll(pins: Int): Bowling = {
+    if (pins < 0 || pins > pinsLeft)
+      return InvalidBowlingGame("Invalid roll")
 
-  private case class Open(rolls: List[Int]) extends Frame {
-    override val isValid: Boolean = rolls.length == 2 && rolls.sum < 10
-  }
+    val nextPins = pinsLeft - pins match {
+      case 0 => 10
+      case n => n
+    }
 
-  private case class FinalStrike(rolls: List[Int]) extends Frame {
-    override val isValid: Boolean = rolls match {
-      case 10 :: 10 :: _ :: Nil => true
-      case 10 :: x1 :: x2 :: Nil => x1 + x2 <= 10
-      case _ => false
+    rolls match {
+      case _ :: _ :: Nil => FinishedBowlingGame(history :+ CompletedFrame(rolls :+ pins, Final))
+      case prev :: Nil if prev + pins < 10 => FinishedBowlingGame(history :+ CompletedFrame(rolls :+ pins, Final))
+      case _ => BowlingGameFinalFrame(history, rolls :+ pins, nextPins)
     }
   }
 
-  private case class FinalSpare(rolls: List[Int]) extends Frame {
-    override val isValid: Boolean = rolls.length == 3 && rolls.take(2).sum == 10
-  }
+  override def score(): Either[String, Int] = Left("Cannot calculate score for game that is not yet finished")
 }
+
+private sealed trait FrameType
+
+private case object Strike extends FrameType
+
+private case object Spare extends FrameType
+
+private case object Open extends FrameType
+
+private case object Final extends FrameType
+
+private case class CompletedFrame(rolls: List[Int], frameType: FrameType)

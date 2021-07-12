@@ -5,13 +5,14 @@ lazy val root = (project in file("."))
     triangle, `flatten-array`, `perfect-numbers`, allergies, `all-your-base`, `grade-school`, bob, hamming,
     `palindrome-products`, series, `nth-prime`, etl, `robot-simulator`, `secret-handshake`, `atbash-cipher`,
     `saddle-points`, `simple-linked-list`, `pythagorean-triplet`, `queen-attack`, `nucleotide-count`, `complex-numbers`,
-    `custom-set`, `binary-search`, grains, `linked-list`)
+    `custom-set`, `binary-search`, grains, `linked-list`, `binary-search-tree`)
 
 lazy val `all-your-base` = project
 lazy val allergies = project
 lazy val `armstrong-numbers` = project
 lazy val `atbash-cipher` = project
 lazy val `binary-search` = project
+lazy val `binary-search-tree` = project
 lazy val bob = project
 lazy val `collatz-conjecture` = project
 lazy val `complex-numbers` = project

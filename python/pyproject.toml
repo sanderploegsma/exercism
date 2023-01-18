@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exercism"
+version = "0.1.0"
+description = "Solutions to the Python track on exercism"
+authors = ["Sander Ploegsma <sanderploegsma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

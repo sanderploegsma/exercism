@@ -14,9 +14,7 @@ class Hangman:
 
     def guess(self, char):
         if self.status != STATUS_ONGOING:
-            raise ValueError("Game already over")
-        if self.remaining_guesses < 0:
-            raise ValueError("No guesses left")
+            raise ValueError("The game has already ended.")
         
         if char in self.guesses or char not in self.word:
             self.remaining_guesses -= 1

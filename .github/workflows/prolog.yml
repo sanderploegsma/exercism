@@ -1,0 +1,28 @@
+name: prolog
+
+on:
+  push:
+    paths:
+      - '.github/workflows/prolog.yml'
+      - 'prolog/**'
+    branches: [ master ]
+  pull_request:
+    paths:
+      - '.github/workflows/prolog.yml'
+      - 'prolog/**'
+    branches: [ master ]
+    
+defaults:
+  run:
+    working-directory: prolog
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install SWI-Prolog
+        uses: logtalk-actions/setup-swi-prolog@master
+        with:
+          swi-prolog-version: latest
+    - uses: actions/checkout@v2
+    - run: ./test-all.sh

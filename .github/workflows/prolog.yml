@@ -21,8 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Install SWI-Prolog
-        uses: logtalk-actions/setup-swi-prolog@master
-        with:
-          swi-prolog-version: latest
+      uses: logtalk-actions/setup-swi-prolog@master
+      with:
+        swi-prolog-version: latest
     - uses: actions/checkout@v2
     - run: ./test-all.sh

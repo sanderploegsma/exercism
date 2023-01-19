@@ -24,5 +24,6 @@ jobs:
       uses: logtalk-actions/setup-swi-prolog@master
       with:
         swi-prolog-version: latest
-    - uses: actions/checkout@v2
-    - run: ./test-all.sh
+    - uses: actions/checkout@v3
+    - name: Run tests for all exercises
+      run: ./test-all.sh

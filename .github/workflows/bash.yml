@@ -1,0 +1,31 @@
+name: bash
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bash.yml'
+      - 'bash/**'
+    branches: [ master ]
+  pull_request:
+    paths:
+      - '.github/workflows/bash.yml'
+      - 'bash/**'
+    branches: [ master ]
+
+defaults:
+  run:
+    working-directory: bash
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install bats-core
+        run: sudo apt update && sudo apt -y install bats
+
+      - name: Run tests for all exercises
+        run: ./test-all.sh

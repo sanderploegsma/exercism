@@ -15,6 +15,10 @@ on:
       - 'typescript/**'
     branches: [ master ]
 
+defaults:
+  run:
+    working-directory: typescript
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,6 +29,6 @@ jobs:
       with:
         node-version: 14.x
     - name: Install dependencies
-      run: yarn --cwd typescript
+      run: yarn
     - name: Run tests
-      run: yarn --cwd typescript workspaces run test
+      run: yarn workspaces run test

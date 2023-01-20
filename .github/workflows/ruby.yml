@@ -12,6 +12,10 @@ on:
       - 'ruby/**'
     branches: [ master ]
 
+defaults:
+  run:
+    working-directory: ruby
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -22,4 +26,4 @@ jobs:
       with:
         ruby-version: 2.7
     - name: Run tests
-      run: rake -f ruby/Rakefile.rb test
+      run: rake test

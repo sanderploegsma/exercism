@@ -12,6 +12,10 @@ on:
       - 'go/**'
     branches: [ master ]
 
+defaults:
+  run:
+    working-directory: go
+
 jobs:
   test:
     runs-on: ubuntu-latest

@@ -12,6 +12,10 @@ on:
       - "kotlin/**"
     branches: [master]
 
+defaults:
+  run:
+    working-directory: kotlin
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +27,4 @@ jobs:
           java-version: "11"
           distribution: "adopt"
       - name: Build with Gradle
-        run: |
-          cd kotlin
-          chmod +x gradlew
-          ./gradlew build
+        run: ./gradlew build

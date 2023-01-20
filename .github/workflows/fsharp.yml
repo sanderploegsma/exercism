@@ -12,6 +12,10 @@ on:
       - 'fsharp/**'
     branches: [ master ]
 
+defaults:
+  run:
+    working-directory: fsharp
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -22,6 +26,6 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Build solution
-      run: dotnet build fsharp
+      run: dotnet build
     - name: Test
-      run: dotnet test --no-build --verbosity normal fsharp
+      run: dotnet test --no-build --verbosity normal

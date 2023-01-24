@@ -13,6 +13,7 @@ use (
 	./isogram
 	./lasagna
 	./luhn
+	./party-robot
 	./protein-translation
 	./raindrops
 	./reverse-string

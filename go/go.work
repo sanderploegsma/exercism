@@ -1,0 +1,21 @@
+go 1.19
+
+use (
+    ./accumulate
+    ./bob
+    ./difference-of-squares
+    ./gigasecond
+    ./grains
+    ./hamming
+    ./hello-world
+    ./isogram
+    ./lasagna
+    ./luhn
+    ./protein-translation
+    ./raindrops
+    ./reverse-string
+    ./sieve
+    ./space-age
+    ./tournament
+    ./two-fer
+)

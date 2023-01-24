@@ -20,6 +20,7 @@ use (
 	./space-age
 	./tournament
 	./two-fer
+	./vehicle-purchase
 	./weather-forecast
 	./welcome-to-tech-palace
 )

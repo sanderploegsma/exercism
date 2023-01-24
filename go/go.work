@@ -4,6 +4,7 @@ use (
 	./accumulate
 	./annalyns-infiltration
 	./bob
+	./card-tricks
 	./cars-assemble
 	./difference-of-squares
 	./gigasecond

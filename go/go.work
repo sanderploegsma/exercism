@@ -21,4 +21,5 @@ use (
 	./tournament
 	./two-fer
 	./weather-forecast
+	./welcome-to-tech-palace
 )

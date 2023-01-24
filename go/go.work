@@ -3,6 +3,7 @@ go 1.19
 use (
 	./accumulate
 	./annalyns-infiltration
+	./blackjack
 	./bob
 	./card-tricks
 	./cars-assemble

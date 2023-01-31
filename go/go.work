@@ -15,6 +15,7 @@ use (
 	./isogram
 	./lasagna
 	./luhn
+	./need-for-speed
 	./party-robot
 	./protein-translation
 	./raindrops

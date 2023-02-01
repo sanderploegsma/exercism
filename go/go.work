@@ -16,6 +16,7 @@ use (
 	./interest-is-interesting
 	./isogram
 	./lasagna
+	./lasagna-master
 	./luhn
 	./need-for-speed
 	./party-robot

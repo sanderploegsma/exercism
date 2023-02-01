@@ -11,6 +11,7 @@ use (
 	./difference-of-squares
 	./gigasecond
 	./grains
+	./gross-store
 	./hamming
 	./hello-world
 	./interest-is-interesting

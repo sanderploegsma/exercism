@@ -13,6 +13,7 @@ use (
 	./grains
 	./hamming
 	./hello-world
+	./interest-is-interesting
 	./isogram
 	./lasagna
 	./luhn

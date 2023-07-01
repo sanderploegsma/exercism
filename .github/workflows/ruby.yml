@@ -26,4 +26,4 @@ jobs:
         with:
           ruby-version: 2.7
       - name: Run tests
-        run: ./test-all.sh
+        run: rake test

@@ -3,14 +3,14 @@ name: ruby
 on:
   push:
     paths:
-      - '.github/workflows/ruby.yml'
-      - 'ruby/**'
-    branches: [ master ]
+      - ".github/workflows/ruby.yml"
+      - "ruby/**"
+    branches: [master]
   pull_request:
     paths:
-      - '.github/workflows/ruby.yml'
-      - 'ruby/**'
-    branches: [ master ]
+      - ".github/workflows/ruby.yml"
+      - "ruby/**"
+    branches: [master]
 
 defaults:
   run:
@@ -20,10 +20,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-    - name: Run tests
-      run: rake test
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Run tests
+        run: ./test-all.sh

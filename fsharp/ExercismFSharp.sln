@@ -157,6 +157,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LogLevels", "log-levels\Log
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BookingUpForBeauty", "booking-up-for-beauty\BookingUpForBeauty.fsproj", "{19033A92-308A-47EF-BB77-D4BB58782FC9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuessingGame", "guessing-game\GuessingGame.fsproj", "{0BEE7B17-8B75-4518-8233-D4E7B2A29969}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1091,6 +1093,18 @@ Global
 		{19033A92-308A-47EF-BB77-D4BB58782FC9}.Release|x64.Build.0 = Release|Any CPU
 		{19033A92-308A-47EF-BB77-D4BB58782FC9}.Release|x86.ActiveCfg = Release|Any CPU
 		{19033A92-308A-47EF-BB77-D4BB58782FC9}.Release|x86.Build.0 = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|x64.Build.0 = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Debug|x86.Build.0 = Debug|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x64.ActiveCfg = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x64.Build.0 = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x86.ActiveCfg = Release|Any CPU
+		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

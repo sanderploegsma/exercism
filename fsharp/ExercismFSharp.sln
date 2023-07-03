@@ -153,6 +153,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CarsAssemble", "cars-assemb
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InterestIsInteresting", "interest-is-interesting\InterestIsInteresting.fsproj", "{AF157826-D742-4241-84BE-9F6E09EC1F98}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LogLevels", "log-levels\LogLevels.fsproj", "{12F8AB31-5051-4B06-AE46-B450DA0D31BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1063,6 +1065,18 @@ Global
 		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x64.Build.0 = Release|Any CPU
 		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x86.Build.0 = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|x64.Build.0 = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Debug|x86.Build.0 = Debug|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|x64.Build.0 = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{12F8AB31-5051-4B06-AE46-B450DA0D31BD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

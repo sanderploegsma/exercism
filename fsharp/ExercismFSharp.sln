@@ -151,6 +151,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ValentinesDay", "valentines
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CarsAssemble", "cars-assemble\CarsAssemble.fsproj", "{20673246-0054-4B6A-8BE0-5BAFD9CEC81F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InterestIsInteresting", "interest-is-interesting\InterestIsInteresting.fsproj", "{AF157826-D742-4241-84BE-9F6E09EC1F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1049,6 +1051,18 @@ Global
 		{20673246-0054-4B6A-8BE0-5BAFD9CEC81F}.Release|x64.Build.0 = Release|Any CPU
 		{20673246-0054-4B6A-8BE0-5BAFD9CEC81F}.Release|x86.ActiveCfg = Release|Any CPU
 		{20673246-0054-4B6A-8BE0-5BAFD9CEC81F}.Release|x86.Build.0 = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Debug|x86.Build.0 = Debug|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x64.Build.0 = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF157826-D742-4241-84BE-9F6E09EC1F98}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

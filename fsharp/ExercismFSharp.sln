@@ -171,6 +171,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TisburyTreasureHunt", "tisb
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tournament", "tournament\Tournament.fsproj", "{F1946140-1C65-4641-817C-4B8751429238}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ZebraPuzzle", "zebra-puzzle\ZebraPuzzle.fsproj", "{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1189,6 +1191,18 @@ Global
 		{F1946140-1C65-4641-817C-4B8751429238}.Release|x64.Build.0 = Release|Any CPU
 		{F1946140-1C65-4641-817C-4B8751429238}.Release|x86.ActiveCfg = Release|Any CPU
 		{F1946140-1C65-4641-817C-4B8751429238}.Release|x86.Build.0 = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|x64.Build.0 = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Debug|x86.Build.0 = Debug|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|x64.ActiveCfg = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|x64.Build.0 = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{6E5DE28D-88F1-4FFF-A4ED-39D919A1CB1B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -167,6 +167,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Bandwagoner", "bandwagoner\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PizzaPricing", "pizza-pricing\PizzaPricing.fsproj", "{1892C4E5-78E4-4035-BC08-582781D35F22}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TisburyTreasureHunt", "tisbury-treasure-hunt\TisburyTreasureHunt.fsproj", "{9618C71E-50AA-4F45-94C0-DB58BD827D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1161,6 +1163,18 @@ Global
 		{1892C4E5-78E4-4035-BC08-582781D35F22}.Release|x64.Build.0 = Release|Any CPU
 		{1892C4E5-78E4-4035-BC08-582781D35F22}.Release|x86.ActiveCfg = Release|Any CPU
 		{1892C4E5-78E4-4035-BC08-582781D35F22}.Release|x86.Build.0 = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|x64.Build.0 = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Debug|x86.Build.0 = Debug|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|x64.ActiveCfg = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|x64.Build.0 = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|x86.ActiveCfg = Release|Any CPU
+		{9618C71E-50AA-4F45-94C0-DB58BD827D18}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -159,6 +159,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BookingUpForBeauty", "booki
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuessingGame", "guessing-game\GuessingGame.fsproj", "{0BEE7B17-8B75-4518-8233-D4E7B2A29969}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BirdWatcher", "bird-watcher\BirdWatcher.fsproj", "{C483F691-18A5-402C-8866-8835D289848E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1105,6 +1107,18 @@ Global
 		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x64.Build.0 = Release|Any CPU
 		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x86.ActiveCfg = Release|Any CPU
 		{0BEE7B17-8B75-4518-8233-D4E7B2A29969}.Release|x86.Build.0 = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|x64.Build.0 = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|x64.ActiveCfg = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|x64.Build.0 = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C483F691-18A5-402C-8866-8835D289848E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

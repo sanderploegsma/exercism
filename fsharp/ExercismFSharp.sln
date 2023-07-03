@@ -163,6 +163,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BirdWatcher", "bird-watcher
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TracksOnTracksOnTracks", "tracks-on-tracks-on-tracks\TracksOnTracksOnTracks.fsproj", "{01A0EB79-2D14-4C05-91D1-F9571338F928}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Bandwagoner", "bandwagoner\Bandwagoner.fsproj", "{254B3C73-E870-463F-B6E8-027B43B3ADA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1133,6 +1135,18 @@ Global
 		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x64.Build.0 = Release|Any CPU
 		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x86.ActiveCfg = Release|Any CPU
 		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x86.Build.0 = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Debug|x86.Build.0 = Debug|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|x64.ActiveCfg = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|x64.Build.0 = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|x86.ActiveCfg = Release|Any CPU
+		{254B3C73-E870-463F-B6E8-027B43B3ADA5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

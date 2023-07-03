@@ -161,6 +161,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuessingGame", "guessing-ga
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BirdWatcher", "bird-watcher\BirdWatcher.fsproj", "{C483F691-18A5-402C-8866-8835D289848E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TracksOnTracksOnTracks", "tracks-on-tracks-on-tracks\TracksOnTracksOnTracks.fsproj", "{01A0EB79-2D14-4C05-91D1-F9571338F928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1119,6 +1121,18 @@ Global
 		{C483F691-18A5-402C-8866-8835D289848E}.Release|x64.Build.0 = Release|Any CPU
 		{C483F691-18A5-402C-8866-8835D289848E}.Release|x86.ActiveCfg = Release|Any CPU
 		{C483F691-18A5-402C-8866-8835D289848E}.Release|x86.Build.0 = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|x64.Build.0 = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Debug|x86.Build.0 = Debug|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x64.ActiveCfg = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x64.Build.0 = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x86.ActiveCfg = Release|Any CPU
+		{01A0EB79-2D14-4C05-91D1-F9571338F928}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,10 @@ object Board {
 
     private const val size = 64
 
-    fun getGrainCountForSquare(number: Int): BigInteger = when {
-        number < 1 -> throw IllegalArgumentException()
-        number > size -> throw IllegalArgumentException()
-        else -> 2.0.toBigDecimal().pow(number - 1).toBigInteger()
+    fun getGrainCountForSquare(number: Int): BigInteger {
+        require(number in 1..size)
+        return BigInteger.valueOf(2).pow(number - 1)
     }
 
-    fun getTotalGrainCount(): BigInteger = (1..size).sumOf(::getGrainCountForSquare)
+    fun getTotalGrainCount(): BigInteger = BigInteger.valueOf(2).pow(size) - BigInteger.ONE
 }

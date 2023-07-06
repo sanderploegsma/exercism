@@ -1,11 +1,14 @@
 rootProject.name = "exercism-kotlin"
-include("allergies")
-include("binary-search")
-include("binary-search-tree")
-include("collatz-conjecture")
-include("complex-numbers")
-include("diffie-hellman")
-include("sublist")
+include(
+    "allergies",
+    "binary-search",
+    "binary-search-tree",
+    "collatz-conjecture",
+    "complex-numbers",
+    "diffie-hellman",
+    "list-ops",
+    "sublist"
+)
 
 pluginManagement {
     repositories {

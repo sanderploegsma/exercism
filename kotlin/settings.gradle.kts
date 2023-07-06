@@ -7,6 +7,7 @@ include(
     "complex-numbers",
     "custom-set",
     "diffie-hellman",
+    "flatten-array",
     "grains",
     "linked-list",
     "list-ops",

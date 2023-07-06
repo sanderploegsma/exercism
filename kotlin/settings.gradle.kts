@@ -3,6 +3,7 @@ include("allergies")
 include("binary-search-tree")
 include("collatz-conjecture")
 include("complex-numbers")
+include("diffie-hellman")
 include("sublist")
 
 pluginManagement {

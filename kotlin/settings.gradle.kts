@@ -8,7 +8,8 @@ include(
     "diffie-hellman",
     "list-ops",
     "sieve",
-    "sublist"
+    "sublist",
+    "zebra-puzzle"
 )
 
 pluginManagement {

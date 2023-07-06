@@ -8,6 +8,7 @@ include(
     "custom-set",
     "diffie-hellman",
     "grains",
+    "linked-list",
     "list-ops",
     "sieve",
     "sublist",

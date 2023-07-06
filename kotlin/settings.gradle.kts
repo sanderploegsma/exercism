@@ -11,6 +11,7 @@ include(
     "grains",
     "linked-list",
     "list-ops",
+    "robot-simulator",
     "sieve",
     "sublist",
     "zebra-puzzle"

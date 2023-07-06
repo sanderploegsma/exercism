@@ -5,6 +5,7 @@ include(
     "binary-search-tree",
     "collatz-conjecture",
     "complex-numbers",
+    "custom-set",
     "diffie-hellman",
     "list-ops",
     "sieve",

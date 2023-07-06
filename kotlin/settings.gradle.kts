@@ -7,6 +7,7 @@ include(
     "complex-numbers",
     "diffie-hellman",
     "list-ops",
+    "sieve",
     "sublist"
 )
 

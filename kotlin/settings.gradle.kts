@@ -12,6 +12,7 @@ include(
     "grains",
     "linked-list",
     "list-ops",
+    "nth-prime",
     "prime-factors",
     "robot-simulator",
     "sieve",

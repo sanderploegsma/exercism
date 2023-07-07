@@ -14,6 +14,7 @@ include(
     "linked-list",
     "list-ops",
     "nth-prime",
+    "perfect-numbers",
     "prime-factors",
     "robot-simulator",
     "sieve",

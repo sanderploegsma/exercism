@@ -14,6 +14,7 @@ include(
     "robot-simulator",
     "sieve",
     "sublist",
+    "sum-of-multiples",
     "zebra-puzzle"
 )
 

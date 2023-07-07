@@ -11,6 +11,7 @@ include(
     "grains",
     "linked-list",
     "list-ops",
+    "prime-factors",
     "robot-simulator",
     "sieve",
     "sublist",

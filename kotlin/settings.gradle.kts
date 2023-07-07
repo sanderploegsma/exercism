@@ -1,6 +1,7 @@
 rootProject.name = "exercism-kotlin"
 include(
     "allergies",
+    "bank-account",
     "binary-search",
     "binary-search-tree",
     "collatz-conjecture",

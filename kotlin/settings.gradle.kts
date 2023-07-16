@@ -19,6 +19,7 @@ include(
         "perfect-numbers",
         "prime-factors",
         "robot-simulator",
+        "run-length-encoding",
         "sieve",
         "sublist",
         "sum-of-multiples",

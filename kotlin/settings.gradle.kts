@@ -11,6 +11,7 @@ include(
     "custom-set",
     "diffie-hellman",
     "flatten-array",
+    "grade-school",
     "grains",
     "largest-series-product",
     "linked-list",

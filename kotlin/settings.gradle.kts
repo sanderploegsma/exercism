@@ -15,6 +15,7 @@ include(
     "largest-series-product",
     "linked-list",
     "list-ops",
+    "matrix",
     "nth-prime",
     "perfect-numbers",
     "prime-factors",

@@ -21,6 +21,7 @@ include(
     "prime-factors",
     "robot-simulator",
     "run-length-encoding",
+    "series",
     "sieve",
     "sublist",
     "sum-of-multiples",

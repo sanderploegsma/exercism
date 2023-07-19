@@ -7,6 +7,7 @@ include(
     "bank-account",
     "binary-search",
     "binary-search-tree",
+    "clock",
     "collatz-conjecture",
     "complex-numbers",
     "custom-set",

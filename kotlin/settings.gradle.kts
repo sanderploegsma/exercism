@@ -11,6 +11,7 @@ include(
     "clock",
     "collatz-conjecture",
     "complex-numbers",
+    "crypto-square",
     "custom-set",
     "diffie-hellman",
     "flatten-array",

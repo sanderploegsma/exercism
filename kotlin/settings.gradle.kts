@@ -31,6 +31,7 @@ include(
     "sieve",
     "sublist",
     "sum-of-multiples",
+    "triangle",
     "yacht",
     "zebra-puzzle"
 )

@@ -19,6 +19,7 @@ include(
     "largest-series-product",
     "linked-list",
     "list-ops",
+    "luhn",
     "matrix",
     "nth-prime",
     "perfect-numbers",

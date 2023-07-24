@@ -15,6 +15,7 @@ include(
     "flatten-array",
     "grade-school",
     "grains",
+    "isbn-verifier",
     "largest-series-product",
     "linked-list",
     "list-ops",

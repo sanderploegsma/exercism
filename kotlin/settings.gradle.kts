@@ -3,6 +3,7 @@ include(
     "affine-cipher",
     "all-your-base",
     "allergies",
+    "anagram",
     "atbash-cipher",
     "bank-account",
     "binary-search",

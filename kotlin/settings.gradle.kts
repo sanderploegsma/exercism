@@ -31,6 +31,7 @@ include(
     "nucleotide-count",
     "perfect-numbers",
     "prime-factors",
+    "raindrops",
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",

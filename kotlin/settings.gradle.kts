@@ -14,6 +14,7 @@ include(
     "complex-numbers",
     "crypto-square",
     "custom-set",
+    "darts",
     "difference-of-squares",
     "diffie-hellman",
     "flatten-array",

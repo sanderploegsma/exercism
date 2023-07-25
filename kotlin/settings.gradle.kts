@@ -1,5 +1,6 @@
 rootProject.name = "exercism-kotlin"
 include(
+    "acronym",
     "affine-cipher",
     "all-your-base",
     "allergies",

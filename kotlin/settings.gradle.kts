@@ -30,6 +30,7 @@ include(
     "nucleotide-count",
     "perfect-numbers",
     "prime-factors",
+    "rna-transcription",
     "robot-simulator",
     "run-length-encoding",
     "secret-handshake",

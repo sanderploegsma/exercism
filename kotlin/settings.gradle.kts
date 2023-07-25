@@ -24,6 +24,7 @@ include(
     "linked-list",
     "list-ops",
     "luhn",
+    "matching-brackets",
     "matrix",
     "nth-prime",
     "nucleotide-count",

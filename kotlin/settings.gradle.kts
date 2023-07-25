@@ -30,6 +30,7 @@ include(
     "prime-factors",
     "robot-simulator",
     "run-length-encoding",
+    "secret-handshake",
     "series",
     "sieve",
     "sublist",

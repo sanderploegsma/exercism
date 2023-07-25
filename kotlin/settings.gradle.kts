@@ -17,6 +17,7 @@ include(
     "darts",
     "difference-of-squares",
     "diffie-hellman",
+    "dnd-character",
     "flatten-array",
     "grade-school",
     "grains",

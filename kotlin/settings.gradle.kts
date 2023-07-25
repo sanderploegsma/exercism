@@ -24,6 +24,7 @@ include(
     "luhn",
     "matrix",
     "nth-prime",
+    "nucleotide-count",
     "perfect-numbers",
     "prime-factors",
     "robot-simulator",

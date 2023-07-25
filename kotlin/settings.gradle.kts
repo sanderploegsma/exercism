@@ -13,6 +13,7 @@ include(
     "complex-numbers",
     "crypto-square",
     "custom-set",
+    "difference-of-squares",
     "diffie-hellman",
     "flatten-array",
     "grade-school",

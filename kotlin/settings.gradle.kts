@@ -18,6 +18,7 @@ include(
     "flatten-array",
     "grade-school",
     "grains",
+    "hamming",
     "isbn-verifier",
     "largest-series-product",
     "linked-list",

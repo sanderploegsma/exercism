@@ -20,6 +20,7 @@ include(
     "grains",
     "hamming",
     "isbn-verifier",
+    "isogram",
     "largest-series-product",
     "linked-list",
     "list-ops",

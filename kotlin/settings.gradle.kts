@@ -40,6 +40,7 @@ include(
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",
+    "saddle-points",
     "scrabble-score",
     "secret-handshake",
     "series",

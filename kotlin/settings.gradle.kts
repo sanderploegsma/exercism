@@ -39,6 +39,7 @@ include(
     "raindrops",
     "resistor-color",
     "resistor-color-duo",
+    "resistor-color-trio",
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",

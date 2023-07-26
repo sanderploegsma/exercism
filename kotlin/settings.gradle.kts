@@ -45,6 +45,7 @@ include(
     "sublist",
     "sum-of-multiples",
     "triangle",
+    "two-fer",
     "yacht",
     "zebra-puzzle"
 )

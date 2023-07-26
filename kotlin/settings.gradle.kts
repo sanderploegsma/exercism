@@ -19,6 +19,7 @@ include(
     "diffie-hellman",
     "dnd-character",
     "flatten-array",
+    "gigasecond",
     "grade-school",
     "grains",
     "hamming",

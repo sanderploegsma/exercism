@@ -22,6 +22,7 @@ include(
     "grade-school",
     "grains",
     "hamming",
+    "hello-world",
     "isbn-verifier",
     "isogram",
     "largest-series-product",

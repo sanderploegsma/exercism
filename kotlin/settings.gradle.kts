@@ -37,6 +37,7 @@ include(
     "perfect-numbers",
     "prime-factors",
     "raindrops",
+    "resistor-color",
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",

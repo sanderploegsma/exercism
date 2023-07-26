@@ -38,6 +38,7 @@ include(
     "prime-factors",
     "raindrops",
     "resistor-color",
+    "resistor-color-duo",
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",

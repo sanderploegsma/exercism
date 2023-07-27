@@ -50,6 +50,7 @@ include(
     "sieve",
     "sublist",
     "sum-of-multiples",
+    "transpose",
     "triangle",
     "two-fer",
     "yacht",

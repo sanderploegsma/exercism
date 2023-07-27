@@ -52,6 +52,7 @@ include(
     "secret-handshake",
     "series",
     "sieve",
+    "space-age",
     "sublist",
     "sum-of-multiples",
     "transpose",

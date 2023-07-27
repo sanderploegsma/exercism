@@ -44,6 +44,7 @@ include(
     "resistor-color",
     "resistor-color-duo",
     "resistor-color-trio",
+    "reverse-string",
     "rna-transcription",
     "robot-simulator",
     "run-length-encoding",

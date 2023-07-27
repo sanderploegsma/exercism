@@ -35,6 +35,7 @@ include(
     "matrix",
     "nth-prime",
     "nucleotide-count",
+    "pangram",
     "perfect-numbers",
     "prime-factors",
     "raindrops",

@@ -49,6 +49,7 @@ include(
     "robot-simulator",
     "run-length-encoding",
     "saddle-points",
+    "scale-generator",
     "scrabble-score",
     "secret-handshake",
     "series",

@@ -5,6 +5,7 @@ include(
     "all-your-base",
     "allergies",
     "anagram",
+    "armstrong-numbers",
     "atbash-cipher",
     "bank-account",
     "binary-search",

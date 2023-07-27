@@ -29,6 +29,7 @@ include(
     "isbn-verifier",
     "isogram",
     "largest-series-product",
+    "leap",
     "linked-list",
     "list-ops",
     "luhn",

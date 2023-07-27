@@ -9,6 +9,7 @@ include(
     "bank-account",
     "binary-search",
     "binary-search-tree",
+    "bob",
     "clock",
     "collatz-conjecture",
     "complex-numbers",

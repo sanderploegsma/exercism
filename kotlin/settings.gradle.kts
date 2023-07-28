@@ -20,6 +20,7 @@ include(
     "difference-of-squares",
     "diffie-hellman",
     "dnd-character",
+    "etl",
     "flatten-array",
     "gigasecond",
     "grade-school",

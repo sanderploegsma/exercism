@@ -22,6 +22,7 @@ include(
     "dnd-character",
     "etl",
     "flatten-array",
+    "forth",
     "gigasecond",
     "grade-school",
     "grains",

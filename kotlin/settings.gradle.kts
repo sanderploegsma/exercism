@@ -52,6 +52,7 @@ include(
     "rna-transcription",
     "robot-name",
     "robot-simulator",
+    "rotational-cipher",
     "run-length-encoding",
     "saddle-points",
     "scale-generator",

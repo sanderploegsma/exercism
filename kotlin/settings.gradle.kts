@@ -17,6 +17,7 @@ include(
     "crypto-square",
     "custom-set",
     "darts",
+    "diamond",
     "difference-of-squares",
     "diffie-hellman",
     "dnd-character",

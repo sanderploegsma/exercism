@@ -37,6 +37,7 @@ include(
     "matching-brackets",
     "matrix",
     "meetup",
+    "minesweeper",
     "nth-prime",
     "nucleotide-count",
     "pangram",

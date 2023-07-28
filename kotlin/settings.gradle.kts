@@ -36,6 +36,7 @@ include(
     "luhn",
     "matching-brackets",
     "matrix",
+    "meetup",
     "nth-prime",
     "nucleotide-count",
     "pangram",

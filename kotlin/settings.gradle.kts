@@ -65,6 +65,7 @@ include(
     "triangle",
     "two-fer",
     "word-count",
+    "wordy",
     "yacht",
     "zebra-puzzle"
 )

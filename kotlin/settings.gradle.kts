@@ -46,6 +46,7 @@ include(
     "resistor-color-trio",
     "reverse-string",
     "rna-transcription",
+    "robot-name",
     "robot-simulator",
     "run-length-encoding",
     "saddle-points",

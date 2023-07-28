@@ -42,6 +42,7 @@ include(
     "nucleotide-count",
     "pangram",
     "perfect-numbers",
+    "phone-number",
     "prime-factors",
     "raindrops",
     "resistor-color",

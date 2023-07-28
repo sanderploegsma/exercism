@@ -61,6 +61,7 @@ include(
     "transpose",
     "triangle",
     "two-fer",
+    "word-count",
     "yacht",
     "zebra-puzzle"
 )

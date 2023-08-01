@@ -46,6 +46,7 @@ include(
     "pangram",
     "perfect-numbers",
     "phone-number",
+    "pig-latin",
     "prime-factors",
     "raindrops",
     "resistor-color",

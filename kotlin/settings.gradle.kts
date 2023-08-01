@@ -8,6 +8,7 @@ include(
     "armstrong-numbers",
     "atbash-cipher",
     "bank-account",
+    "beer-song",
     "binary-search",
     "binary-search-tree",
     "bob",

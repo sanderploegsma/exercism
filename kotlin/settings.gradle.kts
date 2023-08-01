@@ -63,6 +63,7 @@ include(
     "secret-handshake",
     "series",
     "sieve",
+    "simple-cipher",
     "space-age",
     "sublist",
     "sum-of-multiples",

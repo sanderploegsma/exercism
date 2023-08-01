@@ -32,6 +32,7 @@ include(
     "hello-world",
     "isbn-verifier",
     "isogram",
+    "knapsack",
     "largest-series-product",
     "leap",
     "linked-list",

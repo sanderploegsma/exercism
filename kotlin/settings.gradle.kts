@@ -50,6 +50,7 @@ include(
     "pig-latin",
     "prime-factors",
     "raindrops",
+    "react",
     "resistor-color",
     "resistor-color-duo",
     "resistor-color-trio",

@@ -1,20 +1,16 @@
-class Triplet
-  attr_reader :sum, :product
+# frozen_string_literal: true
 
-  def initialize(a, b, c)
-    @sum = a + b + c
-    @product = a * b * c
-    @is_pythagorean = a < b && b < c && a**2 + b**2 == c**2
-  end
+class PythagoreanTriplet
+  def self.triplets_with_sum(sum)
+    triplets = []
 
-  def pythagorean?
-    @is_pythagorean
-  end
+    (0...(sum / 3)).each do |a|
+      (0...(sum / 2)).each do |b|
+        c = sum - b - a
+        triplets << [a, b, c] if a < b && a**2 + b**2 == c**2
+      end
+    end
 
-  def self.where(max_factor:, min_factor: 0, sum: nil)
-    (min_factor..max_factor).to_a.permutation(3)
-                            .map { |(a, b, c)| Triplet.new(a, b, c) }
-                            .select(&:pythagorean?)
-                            .select { |t| sum.nil? || t.sum == sum }
+    triplets
   end
 end

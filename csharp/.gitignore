@@ -1,5 +1,8 @@
+.exercism
+
 bin/
 obj/
 
 .idea
 *.DotSettings.user
+.vs

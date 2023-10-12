@@ -5,8 +5,8 @@ defmodule KitchenCalculator do
 
   def from_milliliter({_, volume}, unit), do: {unit, volume / ratio(unit)}
 
-  def convert({from_unit, volume}, to_unit) do
-    {to_unit, volume * ratio(from_unit) / ratio(to_unit)}
+  def convert(volume_pair, unit) do
+    volume_pair |> to_milliliter() |> from_milliliter(unit)
   end
 
   defp ratio(:milliliter), do: 1

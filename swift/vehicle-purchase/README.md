@@ -6,159 +6,194 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 
 ## Introduction
 
-There are three primary conditional statements that are used in Swift, `if` statements, `switch` statements, and `guard` statements. The `if` and `switch` statements are similar to those seen in a number of other languages, and `guard` should feel familiar to users of other languages with early exit statements.
+## Comparison operators
 
-## If statement
+[Comparison operators][comparison-operators] are used to compare values and return a `true` or `false` value.
+These operators require 2 values to be compared of the same type.
+If the values are not of the same type then the compiler will throw an error.
+Here is a list of the comparison operators and an example of when they give a `true` value:
 
-If statements in Swift are similar to those seen in other languages. E.g.:
+| Method | Description           | Example |
+| ------ | --------------------- | ------- |
+| ==     | equal                 | 1 == 1  |
+| !=     | not equal             | 1 != 2  |
+| <      | less than             | 5 < 4   |
+| <=     | less than or equal    | 4 <= 4  |
+| >      | greater than          | 3 > 1   |
+| >=     | greater than or equal | 2 >= 2  |
+
+## If & Else statements
+
+A [conditional statement][conditional-statement] allows you to execute code based on a condition which is either `true` or `false`.
+The most basic conditional statement is an [if statement][if] which executes code when the condition is `true`.
+To declare an if statement you use the `if` keyword followed by the condition and then the code to execute in curly braces.
 
 ```swift
-if myValue > 0 {
-  print("myValue is positive")
+let wheelCount = 4
+if wheelCount == 4 {
+  print("Your vehicle is a car")
+}
+// Prints "Your vehicle is a car"
+```
+
+If can be combined with else to execute code when the condition is `false`.
+The else statement needs to be used with an if statement and cannot be used on its own.
+To declare an else statement you use the `else` keyword after an if statements curly braces, followed by the code to execute in curly braces.
+
+```swift
+Let precipitationInMM = 0.5
+if precipitationInMM > 0.5 {
+  print("You will need an umbrella")
 } else {
-  print("myValue is not positive")
+  print("You will not need an umbrella")
 }
+// Prints "You will not need an umbrella"
 ```
 
-With this structure, if the Boolean expression following the `if` evaluates as `true`, the first block of code is run, the second block of code is skipped. And if the Boolean expression evaluates to `false`, the first block of code is skipped, the second block of code is run. In either case, the program continues running at the first line of code following the `if` statement.
-
-There are two variants of this pattern that are available in Swift, the else-if and the no-else variants.
-
-### else-if
-
-In cases where the second block of code would just be another `if` statement, the else-if allows us to clean up the code and remove some indentation from our code by moving the `if` up next to the previous `else` and getting rid of a layer of parentheses.
-
-So if we needed to perform different actions when a string is equal to “apple”, “lemon”, “peach”, or any other string, instead of nesting additional `if` statements inside the else blocks, one can write:
+If statements can also be chained together using else if to check multiple conditions.
+It follows the same principle as defining an if statement but the keyword is `else if` instead of `if`.
+As If statement don't they need an else statement to be valid, but they can have one if needed.
 
 ```swift
-if str == "apple" {
-    print("Let's bake an apple crumble")
-} else if str == "lemon" {
-    print("Let's bake a lemon meringue pie!")
-} else if str == "peach" {
-    print("Let's bake a peach pie!")
+let favoriteFruit = "Apple"
+
+if favoriteFruit == "Banana" {
+    print("Your favorite fruit is a banana")
+} else if favoriteFruit == "Orange" {
+    print("Your favorite fruit is an orange")
+} else if favoriteFruit == "Apple" {
+    print("Your favorite fruit is an apple")
 } else {
-    print("Let's buy ice cream.")
+    print("Your favorite fruit is not a banana, orange or apple")
 }
+// Prints "Your favorite fruit is an apple"
 ```
 
-### no-else
+## If expression
 
-And if any if-statement only needs to perform code for one of the cases, the else branch can be left out entirely. So for example, if you are writing software that diagnoses patients and you need to log certain symptoms, like elevated heart rate, instead of writing:
+If statements can also be used as expressions to assign a value to a variable.
+The last statement in the if block is used as the value of the if expression.
+This can be useful when you want to assign a value to a variable based on a condition.
 
 ```swift
-if heartRate > 100 {
-  print("elevated heart rate")
+let CpuBits = 32
+let largest = if CpuBits == 64 {
+  "x86_64"
 } else {
-  ()
+  "x86_32"
+}
+
+print(largest)
+// Prints "x86_32"
+```
+
+## Ternary operator
+
+[Ternary operator][ternary-operator] is a short form of an if-else statement.
+It takes a boolean expression and two expressions separated by a colon.
+The first expression is evaluated if the boolean expression is true, otherwise the second expression is evaluated.
+It has the following setup: `Boolean-expression ? expression1 : expression2`.
+
+The ternary operator is great when you want a short form of an if-else statement and the expressions are short:
+
+```swift
+let showFahrenheit = true
+let temperatureInCelsius = 30
+
+let temperature = showFahrenheit ? temperatureInCelsius * 9 / 5 + 32 : temperatureInCelsius
+print(temperature)
+// Prints 86
+```
+
+The example above is shorthand for the code below:
+    
+```swift
+let showFahrenheit = true
+let temperatureInCelsius = 30
+
+let temperature = if showFahrenheit {
+    temperatureInCelsius * 9 / 5 + 32
+} else {
+    temperatureInCelsius
 }
 ```
 
-You can drop the else and just write
-
-```swift
-if heartRate > 100 {
-  print(“elevated heart rate”)
-}
-```
-
-## switch statements
-
-While the else-if variant of `if` statements cleans things up considerably, there is still a lot of noise in the code from all of the curly braces. This is where the `switch` statement comes into play. In conditional statements with many possible branches, the switch statement shines. Note, however, that `switch` statements do work a bit differently from `if` statements.
-
-Rather than evaluating a Boolean expression and using the value of that expression to choose the code branch that is run, a simple switch statement takes an input value (or expression which it evaluates to obtain the input value) of some type and compares against one or more values of the same type. If a case is found that matches the input value, the corresponding block of code is run.
-
-```swift
-switch str {
-case "apple":
-    print("Let's bake an apple crumble")
-case "lemon":
-    print("Let's bake a lemon meringue pie!")
-case "peach":
-    print("Let's bake a peach pie!")
-default:
-    print("Let's buy ice cream.")
-}
-```
-
-## guard statements
-
-The `guard` statement in swift is used for early returns from Swift functions when a necessary condition which needs to be met for further processing to continue is not met, e.g.:
-
-```swift
-guard myValue >= 0 else { return 0 }
-let root = myValue.squareRoot()
-```
-
-Here, the `guard` checks if the Boolean expression following the `guard` keyword evaluates as true. If it does, then processing continues with the code following the guard statement (here `let root = myValue.squareRoot()`). Otherwise it will execute the code in the else clause. Unlike an `if` statement, a `guard` statement _must_ have an else clause, and unlike the else clause of an if-else, the else clause of a guard _must_ exit the scope of the guard statement. I.e. it must use a control transfer statement such as return, continue, break, or it must throw an error or exit the program.
-
-An example of its use is the sinc function, which is equal to sin(x)/x with sinc(0) defined to be 1, avoiding issues with division by 0. This function can be written in Swift, using a `guard` as:
-
-```swift
-func sinc(_ x: Double) -> Double {
-    guard x != 0 else { return 1 }
-    return sin(x) / x
-}
-
-sinc(0)
-// => 1
-sinc(Double.pi / 2)
-// => 0.6366197723675814
-```
+[comparison-operators]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators#Comparison-Operators
+[conditional-statement]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Conditional-Statements
+[if]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#If
+[ternary-operator]: https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID71
 
 ## Instructions
 
-In this exercise you're going to write some code to help you prepare to buy a new vehicle.
+In this exercise, you will write some code to help you prepare to buy a vehicle.
 
-You have three tasks, one to help you determine the price of the vehicle you can afford, one to determine what kind of license you will need to get, and one to help you compute your yearly registration fees.
+You have three tasks, one to determine if you will need one to help you choose between two vehicles, determine which license you will need and one to estimate the acceptable price for a used vehicle.
 
 ## 1. Compute whether or not you can afford the monthly payments on a given car
 
-The auto dealers in your town are all running a five year, 0% interest promotion that you would like to take advantage of. Implement the `canIBuy(vehicle:price:monthlyBudget:)` function that takes the name of the vehicle you are looking at, the price of the car, and your monthly budget and returns a string letting you know whether you can afford the car or not, if the monthly payment is within 10% above your monthly budget you will want to return a special reminder to be frugal:
+The auto dealers in your town are all running a five year, 0% interest promotion that you would like to take advantage of.
+But you are not sure if you can afford the monthly payments on the car you want.
+
+Implement the `canIBuy(vehicle:price:monthlyBudget:)` function that takes the following arguments:
+- `vehicle` - The name of the vehicle you want to buy.
+- `price` - The price of the vehicle you want to buy.
+- `monthlyBudget` - The amount of money you can afford to pay each month.
+
+The function should return the following message based on the following conditions:
+- If the price of the vehicle is less than or equal to the monthly budget, return the message `"Yes! I'm getting a <vehicle>"`.
+- If the price of the vehicle is 10% above your monthly budget, return the message `"I'll have to be frugal if I want a <vehicle>"`.
+- If the price of the vehicle is more than 10% above your monthly budget, return the message `"Darn! No <vehicle> for me"`.
 
 ```swift
 canIBuy(vehicle: "1974 Ford Pinto", price: 516.32, monthlyBudget: 100.00)
-// => "Yes! I'm getting a 1974 Ford Pinto"
+// returns "Yes! I'm getting a 1974 Ford Pinto"
 canIBuy(vehicle: "2011 Bugatti Veyron", price: 2_250_880.00, monthlyBudget: 10000.00)
-// => "Darn! No 2011 Bugatti Veyron for me"
+// returns "Darn! No 2011 Bugatti Veyron for me"
 canIBuy(vehicle: "2020 Indian FTR 1200", price: 12_500, monthlyBudget: 200)
-// => "I'll have to be frugal if I want a 2020 Indian FTR 1200"
+// returns "I'll have to be frugal if I want a 2020 Indian FTR 1200"
 ```
 
 ## 2. Determine the type of drivers license you will need
 
-Implement the `licenseType(numberOfWheels:)` function that takes the number of wheels on your new vehicle and returns the type of license you will need. Vehicles with 2 or 3 wheels will require a motorcycle license, vehicles with 4 or 6 wheels will require an automobile license, vehicles with 18 wheels require a commercial trucking license, and any other number of wheels returning an failure message:
+You have decided to buy a used vehicle and you need to determine what type of drivers license you will need to operate it.
+
+Implement the `licenseType(numberOfWheels:)` function that takes the argument `numberOfWheels` which is the number of wheels on the vehicle you want to buy.
+
+The function should return the following message based on the following conditions:
+- If the number of wheels is 2 or 3, return the message `"You will need a motorcycle license for your vehicle"`.
+- If the number of wheels is 4 or 6, return the message `"You will need an automobile license for your vehicle"`.
+- If the number of wheels is 18, return the message `"You will need a commercial trucking license for your vehicle"`.
+- If the number is any other number, return the message `"We do not issue licenses for those types of vehicles"`.
 
 ```swift
 licenseType(numberOfWheels: 2)
-// => "You will need a motorcycle license for your vehicle"
+// returns "You will need a motorcycle license for your vehicle"
 licenseType(numberOfWheels: 6)
-// => "You will need an automobile license for your vehicle"
+// returns "You will need an automobile license for your vehicle"
 licenseType(numberOfWheels: 18)
-// => "You will need a commercial trucking license for your vehicle"
+// returns "You will need a commercial trucking license for your vehicle"
 licenseType(numberOfWheels: 0)
-// => "We do not issue licenses for those types of vehicles"
+// returns "We do not issue licenses for those types of vehicles"
 ```
 
-## 3. Calculate the registration fees for your new vehicle
+## 3. Calculate an estimation for the price of a used vehicle
 
-The annual registration fee for your new vehicle is based on the following formula:
+Now that you made your decision you want to make sure you get a fair price at the dealership.
+Since you are interested in buying a used vehicle, the price depends on how old the vehicle is.
+For a rough estimate, assume if the vehicle is less than 3 years old, it costs 80% of the original price it had when it was brand new.
+If it is at least 10 years old, it costs 50%.
+If the vehicle is at least 3 years old but not older than 10 years, it costs 70% of the original price.
 
-- For any vehicle 10 years old or older, the fee is a flat \$25.
-- For any newer car:
-  - Start with a base cost that is either the Manufacturer's Standard Retail Price (MSRP) for the vehicle, or \$25,000 whichever is greater.
-  - Then for each year of age, subtract 10% of the base price.
-  - Finally, divide that value by 100. Return the nearest integer dollar amount that is less than or equal to this value.
-
-Implement the `registrationFee(msrp:yearsOld:)` function that takes the price of the car and the car's age in years, both as `Int` parameters and returns the registration fee for that car, according to the above formula.
+Implement the `calculateResellPrice(originalPrice:yearsOld:)` function that takes the arguments `originalPrice` which holds the vehicles original price, and `yearsOld` which holds the age of the vehicle in years.
+The function should return the resell price of the vehicle. 
 
 ```swift
-registrationFee(msrp: 2_250_800, yearsOld: 9)
-// => 2250
-registrationFee(msrp: 25_000, yearsOld: 3)
-// => 175
-registrationFee(msrp: 34_000, yearsOld: 30)
-// => 25
+calculateResellPrice(originalPrice: 1000, yearsOld: 1)
+// returns 800
+calculateResellPrice(originalPrice: 1000, yearsOld: 5)
+// returns 700
+calculateResellPrice(originalPrice: 1000, yearsOld: 15)
+// returns 500
 ```
 
 ## Source
@@ -166,3 +201,4 @@ registrationFee(msrp: 34_000, yearsOld: 30)
 ### Created by
 
 - @wneumann
+- @meatball133

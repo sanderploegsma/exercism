@@ -17,7 +17,7 @@ func biggestSlice(
   
   switch (sliceSizeA, sliceSizeB) {
     case let (a?, b?) where a > b:
-      // return "Slice A is bigger"
+      return "Slice A is bigger"
     case (.some(_), nil):
       return "Slice A is bigger"
     case let (a?, b?) where b > a:

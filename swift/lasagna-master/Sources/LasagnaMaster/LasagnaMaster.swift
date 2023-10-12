@@ -30,5 +30,5 @@ func toOz(_ x: inout (noodles: Int, sauce: Double)) {
 func redWine(layers: String...) -> Bool {
   func countLayers(_ layer: String) -> Int { layers.filter { $0 == layer }.count }
 
-  return countLayers("mozzarella") + countLayers("ricotta") + countLayers("béchamel") < countLayers("meat") + countLayers("sauce")
+  return countLayers("mozzarella") + countLayers("ricotta") + countLayers("béchamel") <= countLayers("meat") + countLayers("sauce")
 }

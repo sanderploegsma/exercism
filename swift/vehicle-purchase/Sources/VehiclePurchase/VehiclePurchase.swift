@@ -26,12 +26,20 @@ func licenseType(numberOfWheels wheels: Int) -> String {
   }
 }
 
-func registrationFee(msrp: Int, yearsOld: Int) -> Int {
-  guard yearsOld < 10 else {
-    return 25
+func calculateResellPrice(originalPrice: Int, yearsOld: Int) -> Int {
+  let resellPercentage = calculateResellPercentage(yearsOld: yearsOld)
+  let resellPrice = Double(originalPrice) * resellPercentage
+  return Int(resellPrice)
+}
+
+private func calculateResellPercentage(yearsOld: Int) -> Double {
+  if yearsOld >= 10 {
+    return 0.5
   }
 
-  let baseCost = max(Double(msrp), 25_000.0)
-  let fee = (baseCost - baseCost * Double(yearsOld) * 0.1) / 100.0
-  return Int(fee)
+  if yearsOld >= 3 {
+    return 0.7
+  }
+
+  return 0.8
 }

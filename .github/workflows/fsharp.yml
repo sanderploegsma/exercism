@@ -3,14 +3,14 @@ name: fsharp
 on:
   push:
     paths:
-      - '.github/workflows/fsharp.yml'
-      - 'fsharp/**'
-    branches: [ master ]
+      - ".github/workflows/fsharp.yml"
+      - "fsharp/**"
+    branches: [main]
   pull_request:
     paths:
-      - '.github/workflows/fsharp.yml'
-      - 'fsharp/**'
-    branches: [ master ]
+      - ".github/workflows/fsharp.yml"
+      - "fsharp/**"
+    branches: [main]
 
 defaults:
   run:
@@ -20,12 +20,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 7.0.102
-    - name: Build solution
-      run: dotnet build
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - uses: actions/checkout@v4
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0
+      - name: Build solution
+        run: dotnet build
+      - name: Test
+        run: dotnet test --no-build --verbosity normal

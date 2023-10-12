@@ -2,8 +2,12 @@ name: Swift
 
 on:
   pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/swift.yml"
+      - "swift/**"
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - ".github/workflows/swift.yml"
       - "swift/**"
@@ -20,6 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     container: swift:5.8
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Run tests
         run: swift test

@@ -3,14 +3,14 @@ name: Go
 on:
   push:
     paths:
-      - '.github/workflows/go.yml'
-      - 'go/**'
-    branches: [ master ]
+      - ".github/workflows/go.yml"
+      - "go/**"
+    branches: [main]
   pull_request:
     paths:
-      - '.github/workflows/go.yml'
-      - 'go/**'
-    branches: [ master ]
+      - ".github/workflows/go.yml"
+      - "go/**"
+    branches: [main]
 
 defaults:
   run:
@@ -20,18 +20,18 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Set up Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: 1.16
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.20
 
-    - name: Test
-      run: |
-        for dir in $(find . -name go.mod -print0 | xargs -0 -n1 dirname | sort --unique); do
-          (
-              cd $dir
-              go test -v .
-          )
-        done
+      - name: Test
+        run: |
+          for dir in $(find . -name go.mod -print0 | xargs -0 -n1 dirname | sort --unique); do
+            (
+                cd $dir
+                go test -v .
+            )
+          done

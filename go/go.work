@@ -10,6 +10,7 @@ use (
 	./cars-assemble
 	./chessboard
 	./difference-of-squares
+	./election-day
 	./gigasecond
 	./grains
 	./gross-store

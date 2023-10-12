@@ -1,45 +1,65 @@
 # Bob
 
-Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+Welcome to Bob on Exercism's Go Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-Bob answers 'Sure.' if you ask him a question, such as "How are you?".
+## Introduction
 
-He answers 'Whoa, chill out!' if you YELL AT HIM (in all capitals).
+Bob is a [lackadaisical][] teenager.
+He likes to think that he's very cool.
+And he definitely doesn't get excited about things.
+That wouldn't be cool.
 
-He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
+When people talk to him, his responses are pretty limited.
 
-He says 'Fine. Be that way!' if you address him without actually saying
-anything.
+[lackadaisical]: https://www.collinsdictionary.com/dictionary/english/lackadaisical
 
-He answers 'Whatever.' to anything else.
+## Instructions
 
-Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
+Your task is to determine what Bob will reply to someone when they say something to him or ask him a question.
 
-## Coding the solution
+Bob only ever answers one of five things:
 
-Look for a stub file having the name bob.go
-and place your solution code in that file.
-
-## Running the tests
-
-To run the tests run the command `go test` from within the exercise directory.
-
-If the test suite contains benchmarks, you can run these with the `--bench` and `--benchmem`
-flags:
-
-    go test -v --bench . --benchmem
-
-Keep in mind that each reviewer will run benchmarks on a different machine, with
-different specs, so the results from these benchmark tests may vary.
-
-## Further information
-
-For more detailed information about the Go track, including how to get help if
-you're having trouble, please visit the exercism.io [Go language page](http://exercism.io/languages/go/resources).
+- **"Sure."**
+  This is his response if you ask him a question, such as "How are you?"
+  The convention used for questions is that it ends with a question mark.
+- **"Whoa, chill out!"**
+  This is his answer if you YELL AT HIM.
+  The convention used for yelling is ALL CAPITAL LETTERS.
+- **"Calm down, I know what I'm doing!"**
+  This is what he says if you yell a question at him.
+- **"Fine. Be that way!"**
+  This is how he responds to silence.
+  The convention used for silence is nothing, or various combinations of whitespace characters.
+- **"Whatever."**
+  This is what he answers to anything else.
 
 ## Source
 
-Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
+### Created by
 
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+- @kytrinyx
+
+### Contributed to by
+
+- @alebaffa
+- @austinlyons
+- @bitfield
+- @ekingery
+- @ferhatelmas
+- @hilary
+- @leenipper
+- @levicook
+- @petertseng
+- @robphoenix
+- @sebito91
+- @soniakeys
+- @strangeman
+- @tleen
+- @tompao
+- @Tonkpils
+- @eklatzer
+
+### Based on
+
+Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. - https://pine.fm/LearnToProgram/?Chapter=06

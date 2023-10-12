@@ -8,6 +8,7 @@ use (
 	./bob
 	./card-tricks
 	./cars-assemble
+	./chessboard
 	./difference-of-squares
 	./gigasecond
 	./grains

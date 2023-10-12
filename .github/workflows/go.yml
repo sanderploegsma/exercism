@@ -25,13 +25,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
-          go-version: 1.16
+          go-version: 1.18
 
-      - name: Test
-        run: |
-          for dir in $(find . -name go.mod -print0 | xargs -0 -n1 dirname | sort --unique); do
-            (
-                cd $dir
-                go test -v .
-            )
-          done
+      - name: Run tests
+        run: go list -f '{{.Dir}}' -m | xargs go test -v

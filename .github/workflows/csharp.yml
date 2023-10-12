@@ -3,14 +3,14 @@ name: csharp
 on:
   push:
     paths:
-      - '.github/workflows/csharp.yml'
-      - 'csharp/**'
-    branches: [ master ]
+      - ".github/workflows/csharp.yml"
+      - "csharp/**"
+    branches: [main]
   pull_request:
     paths:
-      - '.github/workflows/csharp.yml'
-      - 'csharp/**'
-    branches: [ master ]
+      - ".github/workflows/csharp.yml"
+      - "csharp/**"
+    branches: [main]
 
 defaults:
   run:
@@ -20,12 +20,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.301
-    - name: Build solution
-      run: dotnet build
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - uses: actions/checkout@v4
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0
+      - name: Build solution
+        run: dotnet build
+      - name: Test
+        run: dotnet test --no-build --verbosity normal

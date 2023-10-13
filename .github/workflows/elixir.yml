@@ -1,0 +1,26 @@
+name: elixir
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/elixir.yml"
+      - "elixir/**"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/elixir.yml"
+      - "elixir/**"
+
+defaults:
+  run:
+    working-directory: elixir
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: elixir:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run tests
+        run: ./test-all.sh

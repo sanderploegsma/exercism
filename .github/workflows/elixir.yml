@@ -19,8 +19,11 @@ defaults:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: elixir:latest
     steps:
       - uses: actions/checkout@v4
+      - uses: erlef/setup-beam@v1
+        with:
+          elixir-version: "1.15.6"
+          otp-version: "26"
       - name: Run tests
         run: ./test-all.sh

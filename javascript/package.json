@@ -1,0 +1,11 @@
+{
+  "name": "exercism-javascript-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "annalyns-infiltration",
+    "freelancer-rates",
+    "hello-world",
+    "lasagna"
+  ]
+}

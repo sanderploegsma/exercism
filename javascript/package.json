@@ -4,6 +4,7 @@
   "private": true,
   "workspaces": [
     "annalyns-infiltration",
+    "elyses-enchantments",
     "freelancer-rates",
     "hello-world",
     "lasagna",

@@ -5,6 +5,7 @@
   "contributors": [
     "Derk-Jan Karrenbeld <derk-jan+git@karrenbeld.info> (https://derk-jan.com)"
   ],
+  "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "repository": {

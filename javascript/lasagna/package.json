@@ -2,6 +2,7 @@
   "name": "@exercism/javascript-lasagna",
   "description": "Exercism concept exercise on basics",
   "author": "Derk-Jan Karrenbeld <derk-jan+github@karrenbeld.info>",
+  "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "repository": {

@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     `saddle-points`, `simple-linked-list`, `pythagorean-triplet`, `queen-attack`, `nucleotide-count`, `complex-numbers`,
     `custom-set`, `binary-search`, grains, `linked-list`, `binary-search-tree`, sublist, `largest-series-product`,
     `zebra-puzzle`, raindrops, bowling, strain, `sum-of-multiples`, `protein-translation`, sieve, `rna-transcription`,
-    darts, `high-scores`, `difference-of-squares`, pangram, isogram, anagram, `matching-brackets`)
+    darts, `high-scores`, `difference-of-squares`, pangram, isogram, anagram, `matching-brackets`, `reverse-string`)
 
 lazy val `all-your-base` = project
 lazy val allergies = project
@@ -44,6 +44,7 @@ lazy val `protein-translation` = project
 lazy val `pythagorean-triplet` = project
 lazy val `queen-attack` = project
 lazy val raindrops = project
+lazy val `reverse-string` = project
 lazy val `rna-transcription` = project
 lazy val `robot-name` = project
 lazy val `robot-simulator` = project

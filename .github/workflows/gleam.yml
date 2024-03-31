@@ -25,5 +25,6 @@ jobs:
         with:
           gleam-version: "1.0.0"
           otp-version: "26"
+          rebar3-version: "3.22.1"
       - name: Run tests
         run: ./test-all.sh

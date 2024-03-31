@@ -15,7 +15,7 @@ function print_block {
     printf "\n\n"
 }
 
-for file in $(find . -type f -name 'gleam.toml' -d 2)
+for file in $(find . -maxdepth 2 -type f -name 'gleam.toml')
 do
     error=
     exercise_dir=$(dirname "${file}")

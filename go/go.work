@@ -11,6 +11,7 @@ use (
 	./chessboard
 	./difference-of-squares
 	./election-day
+	./elons-toys
 	./gigasecond
 	./grains
 	./gross-store

@@ -6,6 +6,7 @@ trap "exit 1" SIGINT SIGTERM
 
 declare -i TEST_RESULT=0
 FAILED_EXERCISES=''
+MAKE_TARGET="${1:-test}"
 
 function print_block {
     printf "\n\n"
@@ -24,7 +25,7 @@ do
     print_block "${exercise}"
 
     cd "${exercise_dir}"
-    make test || error=true
+    make "${MAKE_TARGET}" || error=true
     if [ $error ]; then
         TEST_RESULT=1
         FAILED_EXERCISES+="${exercise}\n"

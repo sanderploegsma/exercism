@@ -24,6 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     container: swift:5.8
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Run tests
         run: swift test

@@ -41,6 +41,10 @@ name = "clock"
 version = "2.4.0"
 
 [[package]]
+name = "collatz_conjecture"
+version = "0.1.0"
+
+[[package]]
 name = "difference_of_squares"
 version = "0.1.0"
 

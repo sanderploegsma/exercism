@@ -28,6 +28,10 @@ name = "beer-song"
 version = "0.0.0"
 
 [[package]]
+name = "bob"
+version = "0.1.0"
+
+[[package]]
 name = "chrono"
 version = "0.4.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"

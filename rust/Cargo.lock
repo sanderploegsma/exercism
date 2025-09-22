@@ -101,6 +101,10 @@ name = "luhn"
 version = "0.1.0"
 
 [[package]]
+name = "matching_brackets"
+version = "0.1.0"
+
+[[package]]
 name = "nth_prime"
 version = "2.1.0"
 

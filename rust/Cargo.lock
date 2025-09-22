@@ -143,6 +143,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "series"
+version = "0.1.0"
+
+[[package]]
 name = "space_age"
 version = "0.1.0"
 

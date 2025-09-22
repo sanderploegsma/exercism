@@ -121,6 +121,10 @@ name = "nth_prime"
 version = "2.1.0"
 
 [[package]]
+name = "nucleotide_count"
+version = "0.1.0"
+
+[[package]]
 name = "num-integer"
 version = "0.1.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -191,6 +191,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "robot_simulator"
+version = "0.1.0"
+
+[[package]]
 name = "series"
 version = "0.1.0"
 
